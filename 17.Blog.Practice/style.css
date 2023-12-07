@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header {
+  background-color: rgb(155, 202, 186);
+  padding: 30px;
+}
+.header h3 {
+  color: rgb(16, 45, 83);
+  font-size: 1.5rem;
+  text-shadow: #fc0 1px 0 10px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+a {
+  margin-right: 15px;
+}
+
+input {
+  background-color: rgb(199, 194, 194);
+  padding: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+}
+.card {
+  border: 1px solid;
+  width: 20%;
+  height: 150px;
+  padding: 7px 19px;
+  background-color: rgb(255, 189, 163);
+  border-radius: 5px;
+  border: none;
+  margin-top: 30px;
+}
+.cards {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.card h4 {
+  font-size: 1.2rem;
+  color: rgb(8, 8, 100);
+  margin-bottom: 10px;
+}
+.card h5 {
+  font-size: 1.2rem;
+  color: rgb(100, 26, 8);
+  margin-bottom: 10px;
+}
+.card p {
+  font-size: 1 rem;
+  color: rgb(189, 75, 47);
+  margin-bottom: 10px;
+}
+.delete {
+  width: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(192, 45, 45);
+}
+.edit {
+  width: 80px;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(13, 124, 19);
+}
+.btn {
+  margin-top: 20px;
+}
+
+.banner {
+  background-color: antiquewhite;
+  height: 100vh;
+}
