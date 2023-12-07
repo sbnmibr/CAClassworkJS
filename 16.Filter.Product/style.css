@@ -1,0 +1,62 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btns{
+    gap: 10px;
+}
+.btn1{
+    border-radius: 10px;
+    border: none;
+   padding: 10px  30px;
+   background-color: rgb(103, 183, 230);
+   color: beige;
+}
+.btn2{
+    border-radius: 10px;
+    border: none;
+   padding: 10px  30px;
+   background-color: rgb(103, 183, 230);
+   color: beige;
+}
+.btn3{
+    border-radius: 10px;
+    border: none;
+   padding: 10px  30px;
+   background-color: rgb(103, 183, 230);
+   color: beige;
+}
+.btn4{
+    border-radius: 10px;
+    border: none;
+   padding: 10px  30px;
+   background-color: rgb(103, 183, 230);
+   color: beige;
+}
+.card img{
+width: 100%;
+}
+.card{
+   width: 20%;
+}
+.card{
+    border: 1px solid;
+ 
+
+}
+.card p h5 {
+    padding: 0 8px; 
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px 20px;
+}
+.details{
+    border-radius: 10px;
+    border: none;
+   padding: 10px  30px;
+   background-color: rgb(6, 55, 83);
+   color: beige;
+}
