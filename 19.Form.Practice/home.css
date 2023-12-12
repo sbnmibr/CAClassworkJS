@@ -1,0 +1,26 @@
+.home {
+  height: 100vh;
+  padding:  0 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.sec{
+    background-color: rgb(238, 140, 233);}
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+h3 {
+  font-size: 36px;
+  color: rgb(43, 5, 78);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.logBtn{
+  padding: 7px 15px;
+  border-radius: 7px;
+  border: none;
+  margin-bottom: 10px;
+  background-color: rgb(142, 208, 228);
+}
