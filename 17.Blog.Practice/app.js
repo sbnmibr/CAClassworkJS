@@ -19,7 +19,7 @@ async function drawCards(arr) {
     cards.innerHTML += `
     <div class="card">
             <h4>${element.title}</h4>
-            <h5> ${element.body.slice(0.8)}...<a href="details.html?id=${
+            <h5> ${element.body.slice(0,100)}...<a href="details.html?id=${
       element.id
     }">Read more</a></h5>
             <p>written by Lorem</p>
