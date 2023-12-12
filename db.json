@@ -1,0 +1,34 @@
+{
+  "posts": [
+    {
+      "title": "raul",
+      "body": "react oyren",
+      "author": "shukurov",
+      "id": 4
+    },
+    {
+      "id": 1702309686507,
+      "title": "sebnem",
+      "body": "hello girls"
+    },
+    {
+      "id": 1702326296926,
+      "title": "kenan muellim",
+      "body": "best hoca<3"
+    },
+    {
+      "id": 1702376394565,
+      "title": "selale",
+      "body": "hello kity"
+    },
+    {
+      "id": 1702384075356,
+      "title": "haki",
+      "body": "men bura qizlarijn nazini cekmeye gelmemisem"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

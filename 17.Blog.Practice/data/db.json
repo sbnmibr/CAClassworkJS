@@ -1,10 +1,12 @@
 {
-  "blogs": [
+  "posts": [
     {
-      "title": "Magni id tarione off",
-      "body": "Veluit delentid quilee",
-      "author": "lorem",
-      "id": "15"
+      "id": 1,
+      "title": "json-server",
+      "body": "WSasasds alasdsadsadasuit delentid quilee",
+      "author": "typicode"
     }
+
   ]
+  
 }
