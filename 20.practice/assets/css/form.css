@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    }
+    .container {
+    margin: 0 auto;
+    max-width: 1200px;
+    }
+    header {
+    background-color: rgb(228, 175, 78);
+    background-attachment: fixed;
+    position: relative;
+    }
+    .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+    }
+    nav ul {
+    display: flex;
+    gap: 40px;
+    }
+    nav ul li {
+    font-size: 20px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+    }
+    h3 {
+    font-size: 30px;
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.allInput{
+    padding: 7px 50px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    background-color: antiquewhite;
+}
+.submit{
+    padding: 7px 15px;
+    background-color: green;
+    border-radius: 7px;
+    color: beige;
+    border: none;
+}
+.backBtn{
+    padding: 7px 15px;
+    background-color: green;
+    border-radius: 7px;
+    color: beige;
+    border: none;
+    margin-left: 30px;
+}
+

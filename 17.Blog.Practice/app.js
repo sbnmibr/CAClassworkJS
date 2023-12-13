@@ -19,16 +19,16 @@ async function drawCards(arr) {
     cards.innerHTML += `
     <div class="card">
             <h4>${element.title}</h4>
-            <h5> ${element.body.slice(0,100)}...<a href="details.html?id=${
+            <h5> ${element.body.slice(0, 100)}...<a href="details.html?id=${
       element.id
     }">Read more</a></h5>
             <p>written by Lorem</p>
-            <div class="btn">
+            <diaxv class="btn">
               <button ${element.id} onclick=deleteFunction(${
       element.id
     },this) class="delete">delete</button>
               <a href="blog.html?id=${element.id}" class="edit">edit</a>
-            </div>
+            </diaxv>
           </div>
     `;
   });

@@ -1,4 +1,4 @@
-const tbody = document.querySelector("tbody");
+// const tbody = document.querySelector("tbody");
 const spinner = document.querySelector(".spinner");
 const BASE_URL = `http://universities.hipolabs.com/search`;
 const search = document.querySelector("#search");

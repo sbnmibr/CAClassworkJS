@@ -1,0 +1,36 @@
+{
+  "users": [
+    {
+      "name": "Chef",
+      "surname": "Skinner",
+      "email": "Chef@gmail.com",
+      "date": "5/17/2023, 10:17:45 AM",
+      "userphoto": "./assets/img/Chef.jpeg",
+      "id": 2
+    },
+    {
+      "name": "Gusteau",
+      "surname": "Auguste",
+      "email": "gusteau@gmail.com",
+      "date": "5/17/2023, 10:18:12 AM",
+      "userphoto": "./assets/img/Qusto.jpg",
+      "id": 3
+    },
+    {
+      "name": "Remy1212121212",
+      "surname": "mouse",
+      "email": "remy@gmail.com",
+      "date": "5/17/2023, 10:21:36 AM",
+      "userphoto": "./assets/img/remy2.jpg",
+      "id": 4
+    },
+    {
+      "name": "Collete",
+      "surname": "Tatou",
+      "email": "collete@gmail.com",
+      "date": "5/17/2023, 10:19:21 AM",
+      "userphoto": "./assets/img/Collete.jpg",
+      "id": 5
+    }
+  ]
+}
