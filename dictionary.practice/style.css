@@ -1,0 +1,51 @@
+ *{
+    margin: 0;
+    padding: 0;
+ }
+ .banner{
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    color: rgb(146, 41, 41);
+    margin-bottom: 20px;
+
+}
+.card{
+    padding: 20px;
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /* margin-top: 40px; */
+    border-radius: 10px;
+}
+input{
+  
+ padding: 7px 15px;
+ border-radius: 5px;
+ outline: none;
+ border: none;
+ background-color: rgb(166, 228, 228);
+}
+
+.headIcon{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.definition{
+    border-left: 2px solid green;
+    display: flex;
+    justify-content: space-between;
+    align-items: self-start;
+    flex-direction: column;
+    padding:  6px 20px;
+}
