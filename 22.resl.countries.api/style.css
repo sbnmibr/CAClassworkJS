@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  /* background-color: rgb(255, 255, 255); */
+  /* color: rgb(0, 0, 0); */
+}
+.icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+header h2 {
+  font-size: 30px;
+}
+
+input {
+  padding: 10px 30px;
+  border-radius: 7px;
+  border: none;
+  outline: none;
+  background-color: rgb(190, 238, 238);
+}
+.inputIcon {
+  position: relative;
+}
+.fa-solid {
+  position: absolute;
+  left: 6px;
+  /* bottom: 4px; */
+  top: 9px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px
+}
+.card {
+  padding: 80px 40px;
+  border: 1px solid;
+  box-shadow: 10px 5px 9px rgb(0, 0, 0);
+  background-color: rgb(173, 209, 209);
+  border-radius: 7px;
+  border: none;
+  width: 20%;
+  height: 200px;
+}
+
+.div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner2 {
+  height: 100%;
+  /* background-color: rgb(218, 181, 168); */
+}
+#select {
+  padding: 7px 15px;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+}
+img {
+  width: 100%;
+}
+.card a {
+  color: blue;
+}
+
+body{
+  color: rgb(143, 0, 0);
+  background-color: white;
+
+}
+.dark-mode {
+  background-color: black;
+  color: white;
+  height: 100%;
+}
+
+.icon{
+  cursor: pointer;
+
+}
+#select{
+  background-color: rgb(171, 225, 241);
+}
+.search{
+  background-color: rgb(171, 225, 241);
+}
+.icon .dark-mode {
+  color: black;
+}

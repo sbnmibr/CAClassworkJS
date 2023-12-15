@@ -1,0 +1,14 @@
+.card{
+    display: flex;
+    flex-direction: column;
+}
+img{
+    width: 100%;
+}
+.card-left{
+    width: 405;
+}
+.card-right{
+    display: flex;
+   gap: 90px;
+}
