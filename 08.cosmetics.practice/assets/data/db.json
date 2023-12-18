@@ -1,0 +1,40 @@
+{
+    "cards":[
+        {
+            "id":"1",
+            "title":"Body Lasion",
+            "price":"35$",
+            "image":"./image/item1.jpg"
+        },
+        {
+            "id":"2",
+            "title":"Cream",
+            "price":"56$",
+            "image":"./image/item3.jpg"
+        },
+        {
+            "id":"3",
+            "title":" Lasion",
+            "price":"95$",
+            "image":"./image/item2.jpg"
+        },
+        {
+            "id":"4",
+            "title":"Body Lasion",
+            "price":"35$",
+            "image":"./image/item3.jpg"
+        },
+        {
+            "id":"5",
+            "title":"Body Lasion",
+            "price":"35$",
+            "image":"./image/item1.jpg"
+        },
+        {
+            "id":"6",
+            "title":"Body Lasion",
+            "price":"35$",
+            "image":"./image/item2.jpg"
+        }
+     ]
+}
