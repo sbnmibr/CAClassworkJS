@@ -18,6 +18,7 @@ header {
 }
 .header h3 {
   font-size: 2rem;
+  font-family: "Quicksand";
 }
 .header {
   display: flex;
@@ -30,7 +31,7 @@ nav ul {
 }
 nav ul li a {
   color: white;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-family: "Quicksand";
 }
 /* #home {
   background-image: url("./image/background1.jpg");
@@ -95,10 +96,11 @@ nav ul li a {
   color: green;
 }
 .about-text h1 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Quicksand";
 }
 .about-text p {
   font-style: italic;
+  font-family: "Quicksand";
 }
 .about-text img {
   width: 200px;
@@ -108,18 +110,242 @@ nav ul li a {
   display: flex;
 }
 .about-img img {
-    width: 100%;
-  }
+  width: 100%;
+}
 
 .imgOne {
   position: relative;
-  top: 100px;  
-  z-index: 1000; 
+  top: 10px;
+  z-index: 1000;
 }
 .imgTwo {
   position: relative;
-  right: 100px;
-  top: 40px;
- z-index: -1;
-} 
+  right: 40px;
+  top: -40px;
+  z-index: -1;
+}
+
+#aboutTwo {
+  /* margin-bottom: 800px; */
+  background-image: url("./image/background2.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.aboutTwo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 150px;
+}
+.aboutTwoContent {
+  padding: 80px;
+  width: 50%;
+  background-color: rgb(14, 111, 87);
+  color: white;
+}
+.aboutTwoContent button {
+  padding: 7px 20px;
+  background-color: rgb(235, 240, 239);
+  color: rgb(14, 111, 87);
+  border: none;
+}
+.aboutTwoContent h3 {
+  font-family: "Quicksand";
+}
+.aboutTwoContent p {
+  font-family: "Quicksand";
+}
+
+.aboutTwoImg {
+  width: 50%;
+}
+.aboutTwoImg img {
+  width: 80%;
+}
+
+.aboutCards {
+  display: flex;
+  margin-top: 100px;
+}
+.aboutCard {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0px 50px;
+}
+.aboutCard p {
+  color: green;
+  font-family: "Quicksand";
+}
+.aboutIcon {
+  display: flex;
+  gap: 20px;
+  font-family: "Quicksand";
+}
+.aboutIcon p {
+  color: green;
+  font-family: "Quicksand";
+}
+.fa-regular,
+.fa-solid {
+  font-size: 2.5rem;
+  color: green;
+}
+#small {
+  padding: 100px;
+}
+.small {
+  background-image: url("./image/sl3-1050x700.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.small-text {
+  margin-left: 100px;
+}
+.small-text h4 {
+  font-size: 3rem;
+  color: white;
+  font-family: "Quicksand";
+}
+.small-text p {
+  color: white;
+  font-size: 20px;
+  font-style: italic;
+}
+
+#Portfolio {
+  background-image: url("./image/background1.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.portfolio-head {
+  padding: 100px;
+  text-align: center;
+}
+.portfolio-head p {
+  font-style: italic;
+  color: green;
+}
+.portfolio-head h3 {
+  font-family: "Quicksand";
+  font-size: 3rem;
+  color: green;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  
+}
+.cardOne {
+  padding: 90px 50px;
+  background-color: rgb(217, 224, 226);
+  text-align: center;
+  color: rgb(6, 103, 88);
+  width: 30%;
+}
+.cardOne h5 {
+  font-style: italic;
+  font-size: 1rem;
+  font-family: "Quicksand";
+}
+.cardOne p {
+  font-size: 18px;
+  font-family: "Quicksand";
+}
+.shopBtn {
+  margin-top: 10px;
+  padding: 7px 15px;
+  border: none;
+  background-color: rgb(182, 192, 195);
+  color: rgb(54, 125, 180);
+}
+.card {
+  width: 30%;
+  background-color: transparent;
+  border: none;
+}
+
+#pricing {
+  background-image: url("./image/background1.jpg");
+  height: 200vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.pricingHead {
+  padding-top: 300px;
+  text-align: center;
+}
+.pricingHead p {
+  font-style: italic;
+  color: green;
+}
+.pricingHead h3 {
+  font-family: "Quicksand";
+  font-size: 3rem;
+  color: green;
+}
+.pricing-text {
+  text-align: center;
+  font-family: "Quicksand";
+  color: green;
+}
+#events{
+  background-image: url("./image/background1.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+ .eventsHead .card{
+  border: 1px green;
+ text-align: center;
+}
+.eventCards{
+  display: flex;
+  gap: 20px;
+  padding: 60px;
+ 
+}
+.eventCard{
+padding: 90px 70px;
+border: 1px solid green;
+background-color: blanchedalmond; 
+text-align: center;
+
+}
+.eventCard h2{
+  font-family: "Quicksand";
+  color: rgb(31, 114, 120);
+}
+.eventCard h5{
+  font-family: "Quicksand";
+  color: rgb(31, 114, 120);
+}
+.eventCard p{
+  font-family: "Quicksand";
+  color: rgb(31, 114, 120);
+}
+.eventsHead-text{
+  text-align: center;
+  font-family: "Quicksand";
+  color:rgb(31, 114, 120);
+}
+.eventsHead-text p{
+  font-style: italic;
+  color:rgb(31, 114, 120) ;
+}
+.eventsHead-text h3{
+  font-family: "Quicksand";
+  font-size: 3rem;
+  color:rgb(31, 114, 120);
+}
+
 

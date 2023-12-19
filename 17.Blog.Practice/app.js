@@ -7,7 +7,7 @@ let homeCopy = null;
 async function getAllData() {
   let res = await axios(`${BASE_URL}`);
 
-  home = res.data;
+  home = res.data;  
   homeCopy = structuredClone(home);
   drawCards(res.data);
 }
