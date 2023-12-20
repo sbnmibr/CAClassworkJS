@@ -1,0 +1,36 @@
+header{
+    background-color: aquamarine;
+    padding: 30px;
+
+}
+.header h2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    color: rgb(8, 8, 75);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+label{
+    font-style: italic;
+}
+input{
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(231, 231, 231);
+}
+.fa-trash-can{
+    color: green;
+}
+.fa-pen-to-square{
+color: red;
+}
+
+img{
+    width: 150px;
+}
+.icon{
+    text-align: center;
+}

@@ -1,0 +1,16 @@
+{
+  "cards": [
+    {
+      "id": 2,
+      "image": "./image/b3.jpg",
+      "Name": "Mazus",
+      "price": "$35"
+    },
+    {
+      "id": 3,
+      "image": "./image/b2.jpg",
+      "Name": "Mazus",
+      "price": "$35"
+    }
+  ]
+}
