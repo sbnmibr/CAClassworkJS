@@ -1,0 +1,115 @@
+#services {
+  background-image: url("../image/background2.jpg");
+  padding: 200px 0px;
+  // .services {
+  //   .cards {
+  //     padding: 100px;
+  //     display: flex;
+  //     .card {
+  //       margin: 10px;
+  //       padding-bottom: 20px;
+  //       p {
+  //         margin-top: 20px;
+  //       }
+  //     }
+  //   }
+  // }
+
+  .mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .mission-text {
+      gap: 20px;
+      padding-left: 90px;
+      padding-right: 70px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      width: 50%;
+      button {
+        padding: 10px 25px;
+
+        border: none;
+        outline: none;
+        background-color: rgb(255, 255, 255);
+        &:hover{
+          background-color: rgb(153, 153, 8);
+          color: white;
+        }
+      }
+
+      background-color: rgb(25, 127, 88);
+      height: 500px;
+      h3 {
+        font-size: 3rem;
+        color: white;
+      }
+      p {
+        font-size: 18px;
+        // padding: 20px  150px;
+        color: white;
+      }
+    }
+    .mission-img {
+      width: 50%;
+      img {
+        width: 100;
+      }
+    }
+  }
+  .iconCards{
+    padding-top: 100px;
+    display: flex;
+    gap: 20px;
+.iconCard{
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: rgb(11, 116, 91);
+  font-family: 'Quicksand', sans-serif;
+  p{
+    font-size: 18px;
+  }
+  .icon{
+    display: flex;
+    gap: 10px;
+    i{
+      font-size: 3rem;
+     
+    }
+    h3{
+      font-size: 2rem;
+     
+    }
+  }
+}
+  }
+}
+
+
+#sale{
+ 
+  margin-top: 100px;
+  // padding: 20px 40px;
+  background-image: url("../image/sl3-1050x700.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+ 
+  .sale{
+    .sale-text{
+      font-family: 'Quicksand', sans-serif;
+      color: beige;
+      padding: 50px 90px;
+      h3{
+        font-size: 50px;
+      }
+      p{
+        padding-top: 10px;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

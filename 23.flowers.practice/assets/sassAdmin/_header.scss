@@ -1,0 +1,46 @@
+header{
+    background-color: aquamarine;
+    padding: 40px;
+    .admin{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        h2{
+        font-size: 38px;
+        font-weight: bold;
+        color: blue;
+        }
+    }
+}
+.table{
+
+
+    thead{
+        tr{
+            th{
+                font-size: 38px;
+            }
+        }
+    }
+    tbody{
+        tr{
+            
+            td{
+                
+                font-size: 30px;
+                .icon{
+                    .fa-trash-can{
+                        color: red;
+                    }
+                    .fa-pen-to-square{
+                        color:green;
+                    }
+                }
+            }
+        }
+    }
+    img{
+        width: 200px;
+
+    }
+}

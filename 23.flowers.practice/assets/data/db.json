@@ -1,0 +1,22 @@
+{
+  "cards": [
+    {
+      "id": 3,
+      "image": "./23.flowers.practice/assets/image/b4.jpg",
+      "Name": "daisy",
+      "price": 95
+    },
+    {
+      "id": 5,
+      "image": "./23.flowers.practice/assets/image/b4.jpg",
+      "Name": "selale",
+      "price": 85
+    },
+    {
+      "id": 6,
+      "image": "./23.flowers.practice/assets/image/b3.jpg",
+      "Name": "Mazus",
+      "price": 36
+    }
+  ]
+}

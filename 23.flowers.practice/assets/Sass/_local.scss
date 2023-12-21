@@ -1,0 +1,42 @@
+#local {
+    padding: 150px;
+  .local {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    .local-text {
+      width: 50%;   
+      display: flex;
+      flex-direction: column;
+      padding: 50px 90px;
+      gap: 20px;
+      color: rgb(26, 98, 66);
+      h2{
+        font-size: 3rem;
+        font-family: 'Quicksand', sans-serif;
+      }
+      h5{
+        font-style: italic;
+      }
+      img{
+        width: 150px;
+      }
+
+    }
+    .local-img {
+      width: 50%;
+      display: flex;
+      .imgOne{
+        position: relative;
+        top: 100px;
+        left: 60px;
+      }
+      .imgTwo{
+        position: relative;
+        top: 60px;
+        z-index: -1;
+      }
+    }
+  }
+}

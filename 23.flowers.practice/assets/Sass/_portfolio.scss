@@ -1,0 +1,197 @@
+#Portfolio {
+  margin-top: 100px;
+  background-image: url("../image/background1-1-1085x595.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  .portfolio-head {
+    padding: 100px;
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    h3 {
+      font-family: "Quicksand";
+      font-size: 3rem;
+      color: rgb(15, 114, 83);
+    }
+    p {
+      font-style: italic;
+      color: rgb(16, 115, 77);
+    }
+  }
+  .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    font-family: "Quicksand";
+
+    .cardOne {
+      gap: 20px;
+      padding: 90px 50px;
+      background-color: rgb(217, 224, 226);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: rgb(6, 103, 88);
+      width: 30%;
+      i {
+        font-size: 35px;
+      }
+      h5 {
+        font-style: italic;
+        font-size: 1rem;
+      }
+      p {
+        font-size: 18px;
+      }
+      .shopBtn {
+        margin-top: 10px;
+        padding: 7px 15px;
+        border: none;
+        background-color: rgb(182, 192, 195);
+        color: rgb(54, 125, 180);
+        &:hover{
+            background-color: blue;
+            color: white;
+        }
+      }
+    }
+    .card {
+      width: 30%;
+      background-color: transparent;
+      border: none;
+    }
+  }
+  .pricing {
+    .pricingCards{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      .card{
+        border: none;
+        background-color: transparent;
+        width: 30%;
+        flex-direction: column;
+        img{
+          width: 100px;
+          width: 100%;
+        }
+      }
+    } 
+    .loadBtn{
+     margin: 80px;
+      padding: 15px 30px;
+      background-color: green;
+      color: white;
+      border: none;
+    }
+    .pricing-head {
+      padding: 100px;
+      gap: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "Quicksand", sans-serif;
+     .sort{
+      .sortBtn{
+        padding: 10px 35px;
+        border: none;
+        outline: none;
+       background-color: rgb(88, 195, 172);
+       color: white;
+      }
+      .search{
+        padding: 10px 150px;
+        border: none;
+        outline: none;
+        border-radius: 10px;
+      }
+     }
+
+
+      h3 {
+        font-family: "Quicksand";
+        font-size: 3rem;
+        color: rgb(15, 114, 83);
+      }
+      p {
+        font-style: italic;
+        color: rgb(16, 115, 77);
+      }
+    }
+    .pricing-text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      h3 {
+        font-family: "Quicksand";
+        font-size: 20px;
+        color: rgb(15, 114, 83);
+      }
+      p {
+        font-style: italic;
+        color: rgb(16, 115, 77);
+      }
+    }
+   
+  }
+  .events {
+    padding: 100px;
+    .events-head {
+      padding: 100px;
+      gap: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-family: "Quicksand", sans-serif;
+      h3 {
+        font-family: "Quicksand";
+        font-size: 3rem;
+        color: rgb(15, 114, 83);
+      }
+      p {
+        font-style: italic;
+        color: rgb(16, 115, 77);
+      }
+    }
+    .eventCards {
+      display: flex;
+      gap: 20px;
+      padding: 60px;
+      .eventCard {
+        padding: 80px 60px;
+        border: 1px solid green;
+        background-color: blanchedalmond;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        font-family: "Quicksand";
+        gap: 20px;
+        color: rgb(31, 114, 120);
+        h2 {
+          font-size: 20px;
+        }
+        .shopBtn {
+          margin-top: 10px;
+          padding: 7px 15px;
+          border: none;
+          background-color: rgb(182, 192, 195);
+          color: rgb(54, 125, 180);
+          &:hover{
+          background-color: blue;
+          color: white;
+          }
+        }
+      }
+    }
+  }
+}
