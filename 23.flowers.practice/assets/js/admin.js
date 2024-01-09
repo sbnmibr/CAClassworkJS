@@ -1,4 +1,4 @@
-const BASE_URL = " http://localhost:8000/cards";
+const BASE_URL = " http://localhost:3000/cards";
 const tbody = document.querySelector("tbody");
 const idInput = document.querySelector(".idInput");
 const titleInput = document.querySelector(".titleInput");
@@ -6,7 +6,8 @@ const priceInput = document.querySelector(".priceInput");
 const deleteIcon = document.querySelector(".deleteIcon");
 const editIcon = document.querySelector(".editIcon");
 let submitBtn = document.querySelector(".submit");
-let id = new URLSearchParams(window.location.search).get("id");
+let form = document.querySelector("form");
+let newId = null;
 
 async function getData() {
   const res = await axios(`${BASE_URL}`);
@@ -25,7 +26,7 @@ function drawTable(data) {
             <td>${element.price}</td>
               <td><div class="icon">
               <i   class="fa-regular fa-trash-can deleteIcon" onclick="deletefunc(${element.id},this)"></i>
-              <i class="fa-regular fa-pen-to-square editIcon"></i>
+              <i class="fa-regular fa-pen-to-square editIcon" onclick=edit(${element.id})></i>
           </div></td>
          `;
     tbody.append(trElem);
@@ -45,7 +46,7 @@ if (id) {
   });
 }
 
-editIcon.addEventListener("submit", function (e) {
+form.addEventListener("submit", async function (e) {
   e.preventDefault();
   let obj = {
     id: Data.now(),
@@ -53,10 +54,13 @@ editIcon.addEventListener("submit", function (e) {
     price: priceInput.value,
   };
   if (!id) {
-    axios.post(BASE_URL, obj);
-    window.location.href = "./index.html";
+    await axios.post(BASE_URL, obj);
   } else {
-    axios.patch(`${BASE_URL}/${id}`,obj);
-    window.location.href = "./index.html";
+    await axios.patch(`${BASE_URL}/${id}`, obj);
   }
 });
+
+async function edit(id) {
+  newId = id;
+  
+}

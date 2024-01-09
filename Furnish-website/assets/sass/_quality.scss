@@ -1,0 +1,53 @@
+#quality{
+    background-image: url("../image/bg_4.jpg");
+    padding:60px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    .quality{
+        display: flex;
+        justify-content: space-around;
+        align-items: flex-start;
+        .quality-empty{
+            width: 50%;
+        }
+        padding: 100px;
+       .quality-text{
+        width: 50%;
+        display: flex;
+        justify-content:center ;
+        align-items: flex-start;
+        flex-direction: column;
+       gap: 20px;
+       h4{
+        font-family: 'Poppins', sans-serif;
+        color: gray;
+       }
+       h1{
+        font-size: 30px;
+        font-family: 'Poppins', sans-serif;
+       }
+       p{
+        font-family: 'Poppins', sans-serif;
+        color: gray;
+       }
+       .icon{
+      
+        i{
+            color: white;
+            font-size: 20px;
+            padding: 40px;
+            border-radius: 50%;
+            background-color: rgb(238, 167, 75);
+        }
+        h3{
+              color: rgb(238, 167, 75);
+        }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+       }
+       }
+    }
+}

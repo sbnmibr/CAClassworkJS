@@ -1,0 +1,33 @@
+header{
+    
+    position: absolute;
+    width:100% ;
+   
+    .header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px 10px;
+       
+        h2{
+            font-family: 'Poppins', sans-serif;
+        }
+        nav{
+            ul{
+                display: flex;
+                gap: 40px;
+                font-family: 'Poppins', sans-serif;
+
+
+                li{
+                    a{
+                        color: black;
+                        &.active{
+                            color: white;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
