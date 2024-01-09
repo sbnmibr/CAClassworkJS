@@ -1,21 +1,95 @@
-#blog{
-    .blog{
-        .blog-cards{
-            .card-top{
-                display: flex;
-                .card{
-                    display: flex;
-                    flex-direction: column;
-                    gap: 15px;
-                    border: 1px solid;
-                    width: 25%;
-                    img{
-                        width: 100%;
-                    }
-                }
-            }
+#blog {
+  .blog {
+    margin-top: 100px;
+    .blog-text {
+      text-align: center;
+      p {
+        font-family: "Poppins", sans-serif;
+        color: gray;
+      }
 
-
-        }
+      h1 {
+        color: rgb(6, 36, 36);
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+      }
     }
+    .blog-cards {
+      .card-top {
+        margin-top: 50px;
+        display: flex;
+        .card {
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 20px;
+          // border: 1px solid;
+          width: 25%;
+          img {
+            width: 100%;
+          }
+          h1 {
+            font-size: 18px;
+            color: rgb(11, 52, 51);
+          }
+          p {
+            font-family: "Poppins", sans-serif;
+            color: gray;
+          }
+
+          .card-top {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            .small {
+              display: flex;
+              gap: 10px;
+              font-size: 15px;
+              i {
+                color: rgb(207, 118, 50);
+              }
+            }
+          }
+        }
+      }
+      .card-bottom {
+        display: flex;
+        .card {
+          padding: 10px;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          gap: 20px;
+          // border: 1px solid;
+          width: 25%;
+          img {
+            width: 100%;
+          }
+          h1 {
+            font-size: 18px;
+            color: rgb(11, 52, 51);
+          }
+          p {
+            font-family: "Poppins", sans-serif;
+            color: gray;
+          }
+
+          .card-top {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            .small {
+              display: flex;
+              gap: 10px;
+              font-size: 15px;
+              i {
+                color: rgb(207, 118, 50);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

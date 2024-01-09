@@ -1,0 +1,30 @@
+#header {
+    background-color: rgb(210, 253, 255);
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px;
+
+    h2 {
+      font-family: "Poppins", sans-serif;
+      font-size: 20px;
+    }
+    nav {
+      ul {
+        display: flex;
+        gap: 40px;
+        font-family: "Poppins", sans-serif;
+
+        li {
+          a {
+            color: black;
+            &.active {
+              color: white;
+            }
+          }
+        }
+      }
+    }
+  }
+}
