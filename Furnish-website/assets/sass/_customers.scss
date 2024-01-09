@@ -1,0 +1,78 @@
+#customers {
+  .customers {
+    margin-top: 100px;
+    .customers-text {
+        margin-bottom: 50px;
+      text-align: center;
+      p {
+        color: grey;
+        font-size: 15px;
+        font-family: "Poppins", sans-serif;
+      }
+      h1 {
+        color: rgb(6, 36, 36);
+        font-size: 30px;
+        font-family: "Poppins", sans-serif;
+      }
+    }
+    .customers-cards {
+      display: flex;
+      gap: 20px;
+
+      .icon-cards {
+       
+        position: relative;
+        .fa-solid {
+          padding: 10px;
+          border-radius: 50%;
+          background-color: orangered;
+          position: absolute;
+          color: white;
+          top: -10px;
+          left: 20px;
+        }
+        .card {
+          background-color: rgb(255, 255, 255);
+          gap: 15px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          padding: 40px;
+
+          .card-img {
+            display: flex;
+            // justify-content: space-between;
+            align-items: center;
+            gap: 16px;
+          
+
+            img {
+              width: 30%;
+              border-radius: 50%;
+            }
+            .icon-head{
+                h1{
+                    color: orangered;
+                    font-family: "Poppins", sans-serif;
+                    font-size: 18px;
+                }
+            }
+          }
+          p {
+            font-size: 15px;
+            font-family: "Poppins", sans-serif;
+          }
+        }
+        .cardTwo {
+          background: rgb(250, 177, 81);
+          
+       }
+       .twoIcon{
+        background-color: azure;
+        color: orangered;
+      }
+      }
+    }
+  }
+}

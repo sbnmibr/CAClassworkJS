@@ -1,6 +1,22 @@
 #cards{
     .all{
        padding: 40px 0px;
+       input{
+        margin-bottom: 20px;
+        padding: 10px 40px;
+        border-radius: 10px;
+        border: none;
+        outline: none;
+        background-color: rgb(250, 227, 227);
+       }
+       .loadMore{
+        margin-top: 20px;
+        padding: 10px 30px;
+        background-color: rgb(247, 83, 83);
+        border: none;
+        color: white;
+        
+       }
         .cards{
             display: flex;
             flex-wrap: wrap;
@@ -46,7 +62,7 @@
             }
             
             
-            .card{
+            .card{  
                 width: 20%;
                 padding: 30px;
                 // height: 250px;

@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8080";
+const BASE_URL = "http://localhost:8000";
 const cards = document.querySelector(".cards");
 const search = document.querySelector(".search");
 const loadMore = document.querySelector(".loadMore");
@@ -65,6 +65,6 @@ loadMore.addEventListener("click", function () {
 
 async function deleteFunction(id,btn){
     console.log(id);
-    await axios.delete(`${BASE_URL}/cards/${id}`)
+    await axios.delete(`${BASE_URL}/cards/${id}`).catch(res=>console.log(res))
     // btn.remove()
 }

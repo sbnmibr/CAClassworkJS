@@ -1,0 +1,21 @@
+#blog{
+    .blog{
+        .blog-cards{
+            .card-top{
+                display: flex;
+                .card{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 15px;
+                    border: 1px solid;
+                    width: 25%;
+                    img{
+                        width: 100%;
+                    }
+                }
+            }
+
+
+        }
+    }
+}
