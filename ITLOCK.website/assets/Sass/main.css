@@ -1,0 +1,265 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  background-color: white;
+}
+header .header .header-top {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header .header-top .header-icons {
+  display: flex;
+  gap: 20px;
+  font-size: 14px;
+  color: rgb(13, 13, 121);
+}
+header .header .header-bottom {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header .header-bottom .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+header .header .header-bottom .nav nav ul {
+  display: flex;
+  gap: 20px;
+}
+header .header .header-bottom .nav nav ul li a {
+  color: rgb(13, 13, 121);
+}
+header .header .header-bottom .small {
+  display: flex;
+  gap: 20px;
+}
+header .header .header-bottom .small .headphone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+header .header .header-bottom .small .headphone i {
+  font-size: 30px;
+}
+header .header .header-bottom .small .headphone .info h2 {
+  font-size: 18px;
+  color: rgb(13, 13, 121);
+}
+header .header .header-bottom .small button {
+  padding: 10px 25px;
+  border: 1px solid rgb(13, 13, 121);
+  color: rgb(23, 23, 182);
+  transition: all 0.5s;
+}
+header .header .header-bottom .small button:hover {
+  background-color: blue;
+  color: white;
+}
+
+#best {
+  background-image: url("../image/h1_hero1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+}
+#best .best .best-text {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 50%;
+}
+#best .best .best-text h1 {
+  font-size: 70px;
+  color: white;
+}
+#best .best .best-text p {
+  font-size: 20px;
+  color: white;
+}
+#best .best .best-text button {
+  padding: 15px 35px;
+  border: 1px solid white;
+  background-color: transparent;
+  color: white;
+  transition: all 0.5s;
+}
+#best .best .best-text button:hover {
+  inset: 10em 0 0 0;
+  background-color: rgb(117, 43, 201);
+}
+
+#services .services .services-text {
+  padding: 100px 150px;
+  text-align: center;
+}
+#services .services .services-text h5 {
+  color: rgb(55, 55, 83);
+}
+#services .services .services-text h1 {
+  color: rgb(18, 18, 112);
+  font-size: 40px;
+}
+#services .services .services-text p {
+  margin-top: 20px;
+  color: grey;
+  font-size: 20px;
+}
+#services .services .cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+#services .services .cards .mini {
+  display: none;
+  margin-top: 20px;
+  font-size: 15px;
+  color: rgb(18, 18, 112);
+  transform: all 0.6s;
+}
+#services .services .cards .card {
+  background-color: rgb(233, 252, 255);
+  padding: 50px;
+  text-align: center;
+}
+#services .services .cards .card h2 {
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgb(18, 18, 112);
+}
+#services .services .cards .card:hover .mini {
+  display: block;
+}
+
+#herro {
+  margin-top: 100px;
+}
+#herro .herro {
+  display: flex;
+}
+#herro .herro .left {
+  width: 50%;
+  background-color: rgb(18, 55, 124);
+  color: white;
+  padding: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 30px;
+}
+#herro .herro .left h1 {
+  font-size: 30px;
+}
+#herro .herro .left p {
+  font-size: 20px;
+}
+#herro .herro .left button {
+  padding: 15px 35px;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+#herro .herro .right {
+  width: 50%;
+}
+#herro .herro .right img {
+  width: 100%;
+}
+
+#brands {
+  margin-top: 100px;
+}
+#brands .brands .brands-text {
+  margin-bottom: 50px;
+  text-align: center;
+}
+#brands .brands .brands-text p {
+  color: grey;
+  font-size: 15px;
+}
+#brands .brands .brands-text h1 {
+  font-size: 30px;
+  color: rgb(11, 13, 114);
+  font-weight: bold;
+}
+#brands .brands .brands-text input {
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  padding: 10px 50px;
+  background-color: rgb(190, 240, 241);
+}
+#brands .brands .brands-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+#brands .brands .brands-cards .card {
+  width: 30%;
+}
+#brands .brands .brands-cards .card img {
+  width: 100%;
+}
+#brands .brands .brands-cards .card h2 {
+  color: rgb(10, 58, 80);
+}
+#brands .brands .brands-cards .card p {
+  margin-top: 10px;
+  color: grey;
+}
+#brands .brands .loadMore {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  background-color: rgb(190, 240, 241);
+}
+
+footer {
+  margin-top: 100px;
+  background-color: rgb(16, 69, 138);
+}
+footer .footer {
+  padding: 100px 200px;
+  color: white;
+  text-align: center;
+}
+footer .footer h1 {
+  font-size: 40px;
+}
+footer .footer p {
+  margin-top: 20px;
+  font-size: 20px;
+}
+footer .footer button {
+  margin-top: 20px;
+  padding: 18px 55px;
+  background-color: rgb(33, 117, 150);
+  border: none;
+  font-size: 15px;
+  color: white;
+  margin-bottom: 30px;
+}
+footer .footer .end {
+  font-size: 15px;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,36 @@
+#herro{
+    margin-top: 100px;
+    .herro{
+        display: flex;
+        .left{
+            width: 50%;
+            background-color: rgb(18, 55, 124);
+            color: white;
+            padding: 80px;
+            display: flex;
+            justify-content: center;
+           
+            align-items: flex-start;
+            flex-direction: column;
+            gap: 30px;
+            h1{
+                font-size: 30px;
+            }
+            p{
+                font-size: 20px;
+            }
+            button{
+                padding: 15px 35px;
+                background-color: transparent;
+                border: 1px solid white;
+                color: white;
+            }
+        }
+        .right{
+            width: 50%;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

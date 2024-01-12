@@ -1,0 +1,49 @@
+#services {
+  .services {
+    .services-text {
+      padding: 100px 150px;
+      text-align: center;
+      h5 {
+        color: rgb(55, 55, 83);
+      }
+      h1 {
+        color: rgb(18, 18, 112);
+        font-size: 40px;
+      }
+      p {
+        margin-top: 20px;
+        color: grey;
+        font-size: 20px;
+      }
+    }
+    .cards {
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      
+      .mini {
+        display: none;
+        margin-top: 20px;
+        font-size: 15px;
+        color: rgb(18, 18, 112);
+        transform: all 0.6s;
+      }
+      .card {
+        background-color: rgb(233, 252, 255);
+        padding: 50px;
+        text-align: center;
+       
+        h2 {
+          margin-top: 20px;
+          font-size: 20px;
+          color: rgb(18, 18, 112);
+        }
+        &:hover {
+          .mini {
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}

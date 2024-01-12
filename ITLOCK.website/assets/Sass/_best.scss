@@ -1,0 +1,42 @@
+#best {
+  background-image: url("../image/h1_hero1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 150px;
+  .best {
+    .best-text {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 20px;
+      max-width: 50%;
+      h1 {
+        font-size: 70px;
+        color: white;
+      }
+    //   .line{
+        
+    //     width: 7px;
+    //     height:20px;
+    //   background-color: azure;
+    //   }
+    p{
+        font-size: 20px;
+        color: white;
+    }
+    button{
+        padding: 15px 35px;
+        border: 1px solid white;
+        background-color: transparent;
+        color: white;
+        transition: all 0.5s;
+        &:hover{
+            inset: 10em 0 0 0;
+            background-color: rgb(117, 43, 201);
+        }
+    }
+    }
+  }
+}
