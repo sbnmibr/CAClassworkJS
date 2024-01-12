@@ -1,4 +1,4 @@
-const BASE_URL = "http://localhost:8000";
+const BASE_URL = "http://localhost:8000/cards";
 const cards = document.querySelector(".cards");
 const search = document.querySelector(".search");
 const loadMore = document.querySelector(".loadMore");
@@ -9,7 +9,7 @@ let homeCopy = null;
 let limit = 4;
 let serviceCopy = [];
 async function getData() {
-  const res = await axios(`${BASE_URL}/cards`);
+  const res = await axios(`${BASE_URL}`);
   home = res.data;
   homeCopy = structuredClone(home);
   serviceCopy = res.data;
@@ -27,7 +27,7 @@ async function drawCards(arr) {
               ${element.description}
               </p>
               <i class="fa-solid fa-trash" onclick="deleteFunction(${element.id},this)"></i>
-              <i class="fa-regular fa-pen-to-square"></i>
+              <a  href="form.html?id=${element.id}"><i class="fa-solid fa-user-pen"></i></a>
             </div>
       `;
   });
@@ -41,6 +41,7 @@ search.addEventListener("input", function (e) {
   drawCards(filtered);
   console.log(filtered);
 });
+
 
 loadMore.addEventListener("click", function () {
   limit += 4;
@@ -63,8 +64,10 @@ loadMore.addEventListener("click", function () {
 // window.onscroll = function () {
 // };
 
-async function deleteFunction(id,btn){
-    console.log(id);
-    await axios.delete(`${BASE_URL}/cards/${id}`).catch(res=>console.log(res))
-    // btn.remove()
+async function deleteFunction(id, btn) {
+  // console.log(id);
+  await axios
+    .delete(`${BASE_URL}/cards/${id}`)
+    
+  this.closest("div").remove();
 }
