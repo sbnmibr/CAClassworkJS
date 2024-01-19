@@ -1,0 +1,50 @@
+#details{
+    .details{
+        .card{
+            background-color: rgb(230, 177, 158);
+            display: flex;
+            justify-content: space-around;
+            align-items: flex-start;
+            // gap: 30px;
+            padding: 50px;
+            .left{
+                padding: 50px;
+                width: 40%;
+                img{
+                    width: 100%;
+                    
+
+                }
+            }
+            .right{
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                gap: 29px;
+                padding: 50px;
+                width: 60%;
+                h1{
+                    font-size: 50px;
+                    color: white;
+                    font-family:Arial, Helvetica, sans-serif 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+                p{
+                    font-size: 40px;
+                    color: white;
+                    font-family:Arial, Helvetica, sans-serif 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                }
+                 button{
+                    padding: 10px 30px;
+                    border: 1px solid  rgb(230, 177, 158) ;
+                    outline: none;
+                    background-color: color;
+                    color: rgb(183, 120, 108);
+                    
+                 }
+                }
+               
+                
+            }
+        }
+    }

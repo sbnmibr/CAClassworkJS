@@ -1,0 +1,382 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none !important;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 1111;
+  border-bottom: 1px solid white;
+}
+header #header {
+  padding: 30px;
+}
+header #header .header {
+  color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #header .header h1 {
+  font-size: 40px;
+}
+header #header .header nav ul {
+  display: flex;
+  gap: 40px;
+}
+header #header .header nav ul li a {
+  color: white;
+  font-size: 20px;
+}
+header #header .header .head-mini {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+}
+header #header .header .head-mini h5 {
+  color: orangered;
+}
+header #header .header .fa-bars {
+  display: none;
+  color: white;
+}
+@media screen and (max-width: 767px) {
+  header #header .header nav {
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: -800px;
+    transition: all;
+    display: none;
+  }
+  header #header .header nav ul {
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+  }
+  header #header .header nav.show {
+    left: 0;
+  }
+  header #header .header .head-mini {
+    display: none;
+  }
+  header #header .header .fa-solid {
+    display: block;
+  }
+}
+header.header-scroll #header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 11111;
+}
+
+#carousel .carousel-inner .carousel-item .info {
+  text-align: center;
+  color: white;
+}
+#carousel .carousel-inner .carousel-item .info h1 {
+  font-size: 70px;
+}
+#carousel .carousel-inner .one {
+  background-image: url("../image/slider-1.jpg");
+  padding: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#carousel .carousel-inner .two {
+  background-image: url("../image/slider-2.jpg");
+  padding: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#carousel .carousel-inner .three {
+  background-image: url("../image/slider-3.jpg");
+  padding: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#welcome {
+  margin-top: 100px;
+}
+#welcome .welcome {
+  text-align: center;
+}
+#welcome .welcome .text {
+  text-align: center;
+  padding: 20px;
+}
+#welcome .welcome .text img {
+  width: 100px;
+}
+#welcome .welcome .text h1 {
+  font-size: 50px;
+}
+#welcome .welcome .text .empty {
+  position: relative;
+}
+#welcome .welcome .text .empty-1 {
+  position: absolute;
+  width: 25%;
+  left: 160px;
+  bottom: 18px;
+  height: 2px;
+  background-color: rgb(255, 225, 0);
+}
+#welcome .welcome .text .empty-2 {
+  position: absolute;
+  right: 160px;
+  bottom: 18px;
+  width: 25%;
+  height: 2px;
+  background-color: rgb(246, 255, 0);
+}
+#welcome .welcome .cards {
+  padding: 30p;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+#welcome .welcome .cards .card {
+  padding: 40px;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
+#welcome .welcome .cards .card p {
+  color: gray;
+}
+
+#slider {
+  margin-top: 100px;
+}
+#slider .carousel-indicators .carousel-inner .itemOne {
+  background-image: url("../image/review-bg (1).jpg");
+  padding: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#services {
+  margin-top: 100px;
+}
+#services .services .text {
+  text-align: center;
+  padding: 20px;
+}
+#services .services .text img {
+  width: 100px;
+}
+#services .services .text h1 {
+  font-size: 50px;
+}
+#services .services .text .empty {
+  position: relative;
+}
+#services .services .text .empty-1 {
+  position: absolute;
+  width: 25%;
+  left: 130px;
+  bottom: 18px;
+  height: 2px;
+  background-color: rgb(255, 225, 0);
+}
+#services .services .text .empty-2 {
+  position: absolute;
+  right: 130px;
+  bottom: 18px;
+  width: 25%;
+  height: 2px;
+  background-color: rgb(246, 255, 0);
+}
+#services .services .services-cards {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+#services .services .services-cards .card {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 25%;
+}
+#services .services .services-cards .card img {
+  width: 100%;
+}
+
+#menu {
+  background-image: url("../image/menu-bg (1).jpg");
+  padding: 50px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-top: 100px;
+}
+#menu .menu {
+  color: white;
+}
+#menu .menu .text {
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  gap: 20px;
+  padding: 20px;
+}
+#menu .menu .text i {
+  font-size: 50px;
+  color: rgb(210, 215, 52);
+}
+#menu .menu .text h1 {
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+#menu .menu .text .empty {
+  position: relative;
+}
+#menu .menu .text .empty-1 {
+  position: absolute;
+  width: 25%;
+  left: 130px;
+  bottom: 18px;
+  height: 2px;
+  background-color: rgb(255, 225, 0);
+}
+#menu .menu .text .empty-2 {
+  position: absolute;
+  right: 130px;
+  bottom: 18px;
+  width: 25%;
+  height: 2px;
+  background-color: rgb(246, 255, 0);
+}
+#menu .menu .menu-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+#menu .menu .menu-icons button {
+  padding: 15px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 20px;
+}
+#menu .menu .menu-bottom {
+  padding: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+#menu .menu .menu-bottom .menu-left {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#menu .menu .menu-bottom .menu-left .mini h1 {
+  font-size: 20px;
+}
+#menu .menu .menu-bottom .menu-left .mini p {
+  color: gray;
+}
+#menu .menu .menu-bottom .menu-left .mini .line {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#menu .menu .menu-bottom .menu-right {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#menu .menu .menu-bottom .menu-right .mini h1 {
+  font-size: 20px;
+}
+#menu .menu .menu-bottom .menu-right .mini p {
+  color: gray;
+}
+#menu .menu .menu-bottom .menu-right .mini .line {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form .form {
+  text-align: center;
+}
+#form .form form {
+  text-align: center;
+  padding: 100px;
+}
+#form .form form .text {
+  padding: 30px 0px;
+}
+#form .form form .text i {
+  color: grey;
+  font-size: 40px;
+}
+#form .form form .text h1 {
+  font-size: 50px;
+}
+#form .form form .text .empty {
+  position: relative;
+}
+#form .form form .text .empty-1 {
+  position: absolute;
+  width: 25%;
+  left: 100px;
+  bottom: 18px;
+  height: 2px;
+  background-color: rgb(255, 225, 0);
+}
+#form .form form .text .empty-2 {
+  position: absolute;
+  right: 100px;
+  bottom: 18px;
+  width: 25%;
+  height: 2px;
+  background-color: rgb(246, 255, 0);
+}
+#form .form form .all-inputs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#form .form form .all-inputs input {
+  padding: 10px 70px;
+}
+#form .form .btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#form .form .btn button {
+  padding: 10px 40px;
+  background-color: yellow;
+  border: none;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,19 @@
+.cards{
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    flex-wrap: wrap;
+    
+}
+.card{
+    text-align: center;
+    padding: 40px;
+    width: 25%;
+   
+}
+.card img{
+   width: 100%;
+}
+.card i{
+    color: red;
+}

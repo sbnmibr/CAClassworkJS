@@ -1,0 +1,32 @@
+#form {
+  background-image: url("../image/photo-1553361371-9b22f78e8b1d.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  padding: 250px;
+  .form{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+
+    form {
+        background-color: rgb(0, 0, 0);
+        padding: 70px;
+        input {
+          border-radius: 10px;
+          border: none;
+          outline: none;
+          padding: 10px 5px;
+        }
+        button {
+          padding: 10px 30px;
+          border-radius: 10px;
+          border: none;
+          outline: none;
+          color: rgb(0, 0, 0);
+          //   border: ;
+        }
+      }
+  }
+}

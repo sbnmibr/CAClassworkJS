@@ -1,0 +1,47 @@
+{
+  "data": [
+    {
+      "id": "3",
+      "image": "./assets/image/model_3_bg.jpg",
+      "title": "sebnemmm",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+      "id": "4",
+      "image": "./assets/image/model_4_bg.jpg",
+      "title": "Wild West Hoodie",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+      "id": "5",
+      "image": "./assets/image/model_5_bg.jpg",
+      "title": "guluu",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipisicing."
+    },
+    {
+      "id": "c36f",
+      "title": "seallee",
+      "description": "canimmmm benimm",
+      "image": "./assets/image/model_4_bg.jpg"
+    },
+    {
+      "id": "b84f",
+      "title": "selalee",
+      "description": "bebyeiikmmm",
+      "image": "./assets/image/model_3_bg.jpg"
+    },
+    {
+      "id": "c1cf",
+      "title": "sebnemmmm",
+      "description": "cabhch",
+      "image": "./assets/image/person_3.jpg"
+    },
+    {
+      "id": "a7dd",
+      "title": "raull",
+      "description": "nabir",
+      "image": "./assets/image/person_3.jpg"
+    }
+  ],
+  "fav": []
+}

@@ -1,0 +1,57 @@
+footer {
+    margin-top: 100px;
+    padding: 30px;
+    background-color: black;
+    .footer {
+      .footer-text {
+        text-align: center;
+  
+        h1 {
+          font-size: 50px;
+          color: grey;
+          font-family: "Times New Roman", Times, serif;
+        }
+        p {
+          margin-top: 10px;
+          letter-spacing: 5px;
+          margin-bottom: 20px;
+          font-size: 20px;
+          color: rgb(202, 148, 118);
+        }
+        nav {
+          ul {
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+  
+            gap: 40px;
+  
+            li {
+              font-family: "Times New Roman", Times, serif;
+              a {
+                font-size: 20px;
+                color: rgb(139, 139, 139);
+              }
+            }
+          }
+        }
+      }
+    }
+    @media screen and (max-width: 767px) {
+      padding: 0px 5%;
+      .footer {
+        padding: 20px;
+  
+        .footer-text {
+          padding: 10px 20px;
+          nav{
+              ul{
+                  gap: 20px;
+              }
+          }
+        }
+      }
+    }
+  }
+  

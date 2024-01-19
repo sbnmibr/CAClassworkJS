@@ -1,0 +1,52 @@
+#welcome {
+  margin-top: 100px;
+  .welcome {
+    text-align: center;
+    .text {
+      text-align: center;
+      padding: 20px;
+      img {
+        width: 100px;
+      }
+      h1 {
+        font-size: 50px;
+      }
+      .empty{
+        position: relative;
+      }
+      .empty-1{
+        position: absolute;
+        width: 25%;
+        left: 160px;
+        bottom: 18px;
+        height: 2px;
+        background-color: rgb(255, 225, 0);
+      }
+      .empty-2{
+        position: absolute;
+        right: 160px;
+        bottom: 18px;
+        width: 25%;
+        height: 2px;
+        background-color: rgb(246, 255, 0);
+      }
+      
+    }
+    .cards {
+      padding: 30p;
+      display: flex;
+      justify-content: space-between;
+      gap: 30px;
+      .card {
+        padding: 40px;
+        text-align: center;
+        display: flex;
+        gap: 10px;
+        p {
+          color: gray;
+        }
+        flex-direction: column;
+      }
+    }
+  }
+}

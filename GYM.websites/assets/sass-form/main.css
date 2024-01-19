@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  font-family: "Poppins", sans-serif;
+}
+header #header-top {
+  border-bottom: 1px solid grey;
+}
+header #header-top .header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #header-top .header-top p {
+  font-size: 18px;
+  font-weight: bold;
+}
+header #header-top .header-top .mini-head {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+header #header-top .header-top .mini-head i {
+  color: white;
+  background-color: rgb(203, 67, 76);
+  padding: 30px 30px;
+}
+header #header-top .header-top .fa-solid {
+  display: none;
+  color: red;
+}
+header #header-bottom .header-bottom {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header #header-bottom .header-bottom nav ul {
+  display: flex;
+  gap: 20px;
+  font-size: 16px;
+}
+header #header-bottom .header-bottom nav ul li a {
+  color: rgb(1, 1, 1);
+  font-weight: bold;
+}
+header #header-bottom .header-bottom nav ul li a.active {
+  color: rgb(204, 17, 17);
+}
+@media screen and (max-width: 767px) {
+  header {
+    padding: 0 5%;
+  }
+  header #header-top {
+    padding: 10px;
+    border-bottom: 0px;
+  }
+  header #header-top .header-top p {
+    display: none;
+  }
+  header #header-top .header-top .mini-head {
+    display: none;
+  }
+  header #header-top .header-top .fa-solid {
+    display: block;
+  }
+  header #header-bottom .header-bottom nav {
+    display: none;
+  }
+}
+
+.form {
+  padding: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.form form {
+  padding: 60px;
+  background-color: burlywood;
+}
+.form form input {
+  width: 90%;
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #fff;
+}
+.form form button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  background-color: burlywood;
+  border: 1px solid white;
+  color: white;
+}
+.form form button:hover {
+  background-color: white;
+  color: burlywood;
+}/*# sourceMappingURL=main.css.map */

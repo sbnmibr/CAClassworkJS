@@ -1,0 +1,48 @@
+#blog {
+  margin-top: 100px;
+  .blog {
+    .blog-text{
+        margin-bottom: 40px;
+        text-align: center;
+        p{
+            color: gray;
+        }
+        h1{
+            font-size: 40px;
+        }
+    }
+    .blog-cards {
+        margin-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+      .card{
+        // height: 300px;
+        width: 33%;
+        // padding: 10px;
+        img{
+            width: 100%;
+
+        }
+       .text{
+        padding: 40px;
+        h1{
+            font-size: 20px;
+        }
+       }
+      }
+
+    }
+  }
+  @media screen and (max-width:767px){
+    .blog{
+        .blog-cards{
+            display: flex;
+            flex-direction: column;
+            .card{
+                width: 100%;
+            }
+        }
+    }
+  }
+}

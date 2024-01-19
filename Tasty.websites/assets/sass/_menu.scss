@@ -1,0 +1,95 @@
+#menu {
+  margin-top: 100px;
+  .menu {
+    text-align: center;
+    .btns {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+      button{
+        padding: 20px 30px;
+        background-color: rgb(223, 207, 30);
+        border: none;
+        margin-bottom: 30px;
+        margin-top: 30px;
+      }
+    }
+    .menu-bottom {
+      gap: 30px;
+
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      .menu-card {
+        padding: 10px;
+        background-color: rgb(241, 246, 244);
+        gap: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 40%;
+        .info {
+          display: flex;
+        //   justify-content: center;
+        //   align-items: center;
+          flex-direction: column;
+          h1 {
+            font-size: 20px;
+          }
+          
+        }
+
+        img {
+          width: 5%;
+          border-radius: 50%;
+        }
+        p {
+            font-size: 20px;
+          }
+      }
+
+    }
+    .end{
+        padding: 100px;
+        button{
+            padding: 15px 40px;
+            background-color: transparent;
+            border:  1px solid rgb(255, 187, 0);
+            color: orange;
+            transition: all 0.5s;
+            &:hover{
+                background-color: orangered;
+                color: black;
+            }
+        }
+    }
+  }
+  @media screen and (max-width:767px){
+    .menu{
+        .btns{
+            margin-top: 50px;
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+           
+            button{
+                border-bottom: 1px solid rgb(202, 197, 50);
+                width: 100%;
+                margin: 0;
+            }
+        }
+        .menu-bottom{
+            margin-top: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .menu-card{
+                width: 100%;
+                padding: 0px;
+            }
+        }
+    }
+  }
+}

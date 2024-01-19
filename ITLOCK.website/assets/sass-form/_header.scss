@@ -1,0 +1,70 @@
+header {
+  background-color: white;
+ 
+  .header {
+    .header-top {
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .header-icons {
+        display: flex;
+        gap: 20px;
+        font-size: 14px;
+        color: rgb(13, 13, 121);
+      }
+    }
+    .header-bottom {
+      padding: 20px 0px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 20px;
+        nav {
+          ul {
+            display: flex;
+            gap: 20px;
+            li {
+              a {
+                color: rgb(13, 13, 121);
+              }
+            }
+          }
+        }
+      }
+      .small {
+        display: flex;
+        gap: 20px;
+        .headphone {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          i {
+            font-size: 30px;
+          }
+          .info {
+            h2 {
+              font-size: 18px;
+              color: rgb(13, 13, 121);
+            }
+          }
+        }
+        button {
+          padding: 10px 25px;
+          border: 1px solid rgb(13, 13, 121);
+          color: rgb(23, 23, 182);
+          transition: all 0.5s;
+          &:hover {
+            background-color: blue;
+            color: white;
+          }
+        }
+      }
+    }
+  }
+}

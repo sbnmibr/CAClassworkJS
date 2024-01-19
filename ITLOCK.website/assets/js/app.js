@@ -3,6 +3,7 @@ const cards = document.querySelector(".brands-cards");
 const loadMore = document.querySelector(".loadMore");
 const searchInput = document.querySelector(".search");
 const headerTop = document.querySelector(".header-top");
+const sort =document.querySelector(".sort")
 const headerBottom = document.querySelector(".header-bottom");
 
 let home = null;
@@ -30,7 +31,7 @@ async function drawCards(arr) {
     <h2>${element.title}</h2>
     <p>${element.desc}</p>
     <i class="fa-solid fa-minus" onclick="deleteFunction(${element.id},this)"></i>
-  <a>
+  <a href="form.html?id=${element.id}">
   <i class="fa-regular fa-pen-to-square"></i>
   </a>
    
@@ -52,24 +53,16 @@ searchInput.addEventListener("input", function (e) {
   drawCards(filtered);
 });
 
-//  function scrollFunction(){
-//   if(
-//      document.body.scrollTop>100 ||
-//      document.element.scrollTop>100
-//   ){
-//     headerTop.style.display="none",
-//      headerBottom.style.display="block"
-//   }
-//   else{
-//     headerTop.style.display="",
-//      headerBottom.style.display=""
-//   }
-//   window.onscroll()=function(){
-//     scrollFunction()
-//   }
-// }
+
 
 async function deleteFunction(id, btn) {
   await axios.delete(`${BASE_URL}/${id}`);
   btn.closest("div").remove();
 }
+
+
+// sort.addEventListener("click",function(){
+//   if(sort.innerHTML="ascending"){
+//     serviceCopy=serviceCopy.sort((a,b))
+//   }
+// })

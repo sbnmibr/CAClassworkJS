@@ -1,0 +1,88 @@
+header {
+    .header {
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 30px;
+      .header-top{
+          
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          .header-right{
+              font-family: 'Mulish', sans-serif;
+              display: flex;
+             gap: 10px;
+             i{
+              background-color: black;
+              padding: 10px;
+              border-radius: 50%;
+              color: white;
+              font-size: 14px;
+             }
+          }
+          .header-left{
+              display: flex;
+              gap: 30px;
+              .small{
+                  display: flex;
+                 gap: 10px;
+                 i{
+                  color: orangered;
+                  font-size: 18px;
+                 }
+                 p{
+                  font-size: 18px;
+                 }
+              }
+          }
+      }
+      .header-bottom{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          h1{
+              font-family: 'Mulish', sans-serif;
+              font-weight: bold;
+              font-size: 35px;
+          }
+          nav{
+              ul{
+                  display: flex;
+                  gap: 50px;
+                  li{
+                      a{
+                          color: black;
+                          font-size: 18px;
+                          font-family: 'Mulish', sans-serif;
+                      }
+                  }
+              }
+          }
+          .fa-solid{
+  
+              display: none;
+              color: rgb(0, 0, 0);
+          }
+      }
+    }
+    @media screen and (max-width:767px){
+      .header{
+          .header-top{
+              display: none;
+          }
+          .header-bottom{
+              nav{
+                  display: none;
+              }
+              .fa-solid{
+  
+                  display: block;
+                  
+              }
+  
+          }
+      }
+    }
+  }
+  

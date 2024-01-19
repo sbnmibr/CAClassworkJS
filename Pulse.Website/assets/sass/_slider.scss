@@ -1,0 +1,14 @@
+#slider {
+  margin-top: 100px;
+  .carousel-indicators {
+    .carousel-inner {
+      .itemOne {
+        background-image: url("../image/review-bg\ \(1\).jpg");
+        padding: 200px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+    }
+  }
+}

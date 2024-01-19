@@ -1,0 +1,50 @@
+.guests{
+    margin-top: 100px;
+    .guests-info{
+        text-align: center;
+        p{
+            color: cadetblue;
+        }
+        h1{
+            font-size: 30px;
+        }
+    }
+    .carousel-owl {
+        padding: 100px 0px;
+        .card1{
+            // padding: 50px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+           
+            .image{
+               
+                width: 20%;
+               
+                img{
+                    width: 100%;
+                     border-radius: 50%;
+                }
+             }
+             .desc{
+                padding: 0px 50px;
+                p{
+                    font-size: 15px;
+                    color: cadetblue;
+                 }
+             }
+             .info{
+                h4{
+                    font-size: 18px;
+                }
+                p{
+                    font-size: 15px;
+                }
+             }
+        }
+        }
+        
+}

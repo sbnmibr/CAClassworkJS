@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header .header {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  padding: 30px;
+}
+header .header .header-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header .header-top .header-right {
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  gap: 10px;
+}
+header .header .header-top .header-right i {
+  background-color: black;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+}
+header .header .header-top .header-left {
+  display: flex;
+  gap: 30px;
+}
+header .header .header-top .header-left .small {
+  display: flex;
+  gap: 10px;
+}
+header .header .header-top .header-left .small i {
+  color: orangered;
+  font-size: 18px;
+}
+header .header .header-top .header-left .small p {
+  font-size: 18px;
+}
+header .header .header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header .header-bottom h1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+header .header .header-bottom nav ul {
+  display: flex;
+  gap: 50px;
+}
+header .header .header-bottom nav ul li a {
+  color: black;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+}
+header .header .header-bottom .fa-solid {
+  display: none;
+  color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 767px) {
+  header .header .header-top {
+    display: none;
+  }
+  header .header .header-bottom nav {
+    display: none;
+  }
+  header .header .header-bottom .fa-solid {
+    display: block;
+  }
+}
+
+#all .all .form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#all .all .form form {
+  margin-top: 50px;
+  padding: 100px;
+  background-color: cadetblue;
+}
+#all .all .form form input {
+  padding: 10px;
+  width: 80%;
+  border: none;
+  background-color: rgb(232, 232, 232);
+}
+#all .all .form form button {
+  padding: 10px 25px;
+  border: 1px solid cadetblue;
+  color: rgb(52, 66, 158);
+}
+#all .all .table {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#all .all .table table,
+#all .all .table th,
+#all .all .table td {
+  padding: 20px;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+#all .all .table table button,
+#all .all .table th button,
+#all .all .table td button {
+  padding: 10px;
+  color: white;
+  border: none;
+}
+#all .all .table table .delete,
+#all .all .table th .delete,
+#all .all .table td .delete {
+  background-color: chartreuse;
+}
+#all .all .table table .edit,
+#all .all .table th .edit,
+#all .all .table td .edit {
+  background-color: rgb(251, 69, 41);
+}
+#all .all .table table {
+  padding: 50px;
+}
+#all .all .table table img {
+  width: 100px;
+}/*# sourceMappingURL=main.css.map */

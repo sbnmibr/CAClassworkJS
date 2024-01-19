@@ -1,52 +1,78 @@
-#brands{
-    margin-top:100px ;
+#brands {
+  margin-top: 100px;
+  .brands {
+    .brands-text {
+      margin-bottom: 50px;
+      text-align: center;
+      p {
+        color: grey;
+        font-size: 15px;
+      }
+      h1 {
+        font-size: 30px;
+        color: rgb(11, 13, 114);
+        font-weight: bold;
+      }
+      input {
+        margin-top: 10px;
+        border-radius: 10px;
+        border: none;
+        padding: 10px 50px;
+        background-color: rgb(190, 240, 241);
+      }
+      .sort{
+        padding: 10px 30px;
+        border-radius: 5px;
+        border: none;
+        background-color: rgb(190, 240, 241);
+      }
+    }
+    .brands-cards {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      gap: 30px;
+      .card {
+        width: 30%;
+        img {
+          width: 100%;
+        }
+        h2 {
+          color: rgb(10, 58, 80);
+        }
+        p {
+          margin-top: 10px;
+          color: grey;
+        }
+      }
+    }
+    .loadMore {
+      margin-top: 20px;
+      padding: 10px 30px;
+      border: none;
+      background-color: rgb(190, 240, 241);
+    }
+  }
+  @media screen and(max-width:767px) {
+    padding: 0 5%;
     .brands{
         .brands-text{
-            margin-bottom: 50px;
-            text-align: center;
-            p{
-                color: grey;
-                font-size: 15px;
-            }
-            h1{
-                font-size: 30px;
-                color: rgb(11, 13, 114);
-                font-weight: bold;
-            }
+            display: flex;
+            flex-direction: column;
+            gap: 25px;
             input{
-                margin-top: 10px;
-                border-radius: 10px;
-                border: none;
-                padding: 10px 50px;
-                background-color: rgb(190, 240, 241);
+                display: none;
             }
         }
         .brands-cards{
-           
+            padding: 0px;
             display: flex;
             flex-wrap: wrap;
-            justify-content: space-between;
-            gap: 30px;
+            justify-content: center;
             .card{
-
-                width: 30%;
-                img{
-                    width: 100%;
-                }
-                h2{
-                    color: rgb(10, 58, 80);
-                }
-                p{
-                    margin-top: 10px;
-                    color: grey;
-                }
+                width: 40%;
             }
         }
-        .loadMore{
-            margin-top: 20px;
-            padding: 10px 30px;
-            border: none;
-            background-color: rgb(190, 240, 241);
     }
-}
+  }
 }

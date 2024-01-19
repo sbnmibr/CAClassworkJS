@@ -72,6 +72,23 @@ header .header .header-bottom .small button:hover {
   background-color: blue;
   color: white;
 }
+@media screen and (max-width: 767px) {
+  header {
+    padding: 0 5%;
+  }
+  header .header .header-top {
+    display: flex;
+  }
+  header .header .header-top p {
+    font-size: 15px;
+  }
+  header .header .header-bottom nav {
+    display: none;
+  }
+  header .header .header-bottom .small button {
+    display: none;
+  }
+}
 
 #best {
   background-image: url("../image/h1_hero1.jpg");
@@ -101,11 +118,25 @@ header .header .header-bottom .small button:hover {
   border: 1px solid white;
   background-color: transparent;
   color: white;
-  transition: all 0.5s;
+  transition: all 0.8s;
 }
 #best .best .best-text button:hover {
-  inset: 10em 0 0 0;
-  background-color: rgb(117, 43, 201);
+  box-shadow: inset 15em 0 0 rgb(158, 25, 182);
+}
+@media screen and (max-width: 767px) {
+  #best {
+    padding: 0 5%;
+  }
+  #best .best {
+    padding: 20px;
+  }
+  #best .best .best-text {
+    max-width: 80%;
+    max-width: 50%;
+  }
+  #best .best .best-text h1 {
+    font-size: 40px;
+  }
 }
 
 #services .services .services-text {
@@ -149,6 +180,27 @@ header .header .header-bottom .small button:hover {
 #services .services .cards .card:hover .mini {
   display: block;
 }
+@media screen and (max-width: 767px) {
+  #services {
+    padding: 0 5%;
+  }
+  #services .services .services-text {
+    padding: 40px 0;
+    max-width: 90%;
+  }
+  #services .services .services-text h1 {
+    font-size: 30px;
+  }
+  #services .services .cards {
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #services .services .cards .card {
+    width: 45%;
+  }
+}
 
 #herro {
   margin-top: 100px;
@@ -185,6 +237,21 @@ header .header .header-bottom .small button:hover {
 #herro .herro .right img {
   width: 100%;
 }
+@media screen and (max-width: 767px) {
+  #herro {
+    padding: 0 5%;
+  }
+  #herro .herro {
+    display: flex;
+    flex-direction: column;
+  }
+  #herro .herro .left {
+    width: 100%;
+  }
+  #herro .herro .right {
+    width: 100%;
+  }
+}
 
 #brands {
   margin-top: 100px;
@@ -207,6 +274,12 @@ header .header .header-bottom .small button:hover {
   border-radius: 10px;
   border: none;
   padding: 10px 50px;
+  background-color: rgb(190, 240, 241);
+}
+#brands .brands .brands-text .sort {
+  padding: 10px 30px;
+  border-radius: 5px;
+  border: none;
   background-color: rgb(190, 240, 241);
 }
 #brands .brands .brands-cards {
@@ -233,6 +306,28 @@ header .header .header-bottom .small button:hover {
   padding: 10px 30px;
   border: none;
   background-color: rgb(190, 240, 241);
+}
+@media screen and (max-width: 767px) {
+  #brands {
+    padding: 0 5%;
+  }
+  #brands .brands .brands-text {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  #brands .brands .brands-text input {
+    display: none;
+  }
+  #brands .brands .brands-cards {
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  #brands .brands .brands-cards .card {
+    width: 40%;
+  }
 }
 
 footer {
@@ -262,4 +357,12 @@ footer .footer button {
 }
 footer .footer .end {
   font-size: 15px;
+}
+@media screen and (max-width: 767px) {
+  footer {
+    padding: 0 5%;
+  }
+  footer .footer {
+    padding: 30px;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,61 @@
+#form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .form {
+    text-align: center;
+    form {
+      .text {
+        padding: 30px 0px;
+        i {
+          color: grey;
+          font-size: 40px;
+        }
+        h1 {
+          font-size: 50px;
+        }
+        .empty {
+            position: relative;
+          }
+          .empty-1 {
+            position: absolute;
+            width: 25%;
+            left: 100px;
+            bottom: 18px;
+            height: 2px;
+            background-color: rgb(255, 225, 0);
+          }
+          .empty-2 {
+            position: absolute;
+            right: 100px;
+            bottom: 18px;
+            width: 25%;
+            height: 2px;
+            background-color: rgb(246, 255, 0);
+          }
+      }
+
+      text-align: center;
+      padding: 100px;
+      .all-inputs {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        input {
+          padding: 10px 70px;
+        }
+      }
+    }
+    .btn {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      button {
+        padding: 10px 40px;
+        background-color: yellow;
+        border: none;
+      }
+    }
+  }
+}

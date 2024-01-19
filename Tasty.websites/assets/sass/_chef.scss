@@ -1,0 +1,46 @@
+#chef {
+    margin-top: 100px;
+  .chef {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    .chef-image {
+      width: 50%;
+      img {
+        width: 100%;
+      }
+    }
+    .chef-info {
+      gap: 40px;
+      padding: 30px 100px;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+      flex-direction: column;
+      h5 {
+        color: rgb(113, 131, 131);
+      }
+      h1 {
+        font-size: 30px;
+      }
+      span {
+        color: grey;
+      }
+    }
+  }
+  @media screen and (max-width:767px) {
+    .chef{
+        display: flex;
+        flex-direction: column;
+        .chef-image{
+            width: 100%;
+        }
+        .chef-info{
+            padding: 0px;
+            width: 100%;
+        }
+    }
+  }
+}

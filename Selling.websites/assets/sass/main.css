@@ -1,0 +1,498 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+@media screen and (max-width: 1199px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+header {
+  transition: all 0.5s;
+}
+header #header-top .header-top {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #header-top .header-top .header-right {
+  font-family: "Mulish", sans-serif;
+  display: flex;
+  gap: 10px;
+}
+header #header-top .header-top .header-right i {
+  background-color: black;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  font-size: 14px;
+}
+header #header-top .header-top .header-left {
+  display: flex;
+  gap: 30px;
+}
+header #header-top .header-top .header-left .small {
+  display: flex;
+  gap: 10px;
+}
+header #header-top .header-top .header-left .small i {
+  color: orangered;
+  font-size: 18px;
+}
+header #header-top .header-top .header-left .small p {
+  font-size: 18px;
+}
+header #header-bottom .header-bottom {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header #header-bottom .header-bottom h1 {
+  font-family: "Mulish", sans-serif;
+  font-weight: bold;
+  font-size: 35px;
+}
+header #header-bottom .header-bottom nav ul {
+  display: flex;
+  gap: 50px;
+}
+header #header-bottom .header-bottom nav ul li a {
+  color: black;
+  font-size: 18px;
+  font-family: "Mulish", sans-serif;
+}
+header #header-bottom .header-bottom .fa-solid {
+  display: none;
+  color: rgb(0, 0, 0);
+}
+@media screen and (max-width: 767px) {
+  header #header-top .header-top {
+    display: none;
+  }
+  header #header-bottom .header-bottom nav {
+    background-color: azure;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top: 0;
+    left: -800px;
+    transition: all 0.8s;
+  }
+  header #header-bottom .header-bottom nav ul {
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  header #header-bottom .header-bottom nav.show {
+    left: 0;
+  }
+  header #header-bottom .header-bottom .fa-solid {
+    display: block;
+  }
+}
+header.header-scroll #header-top {
+  display: none;
+}
+header.header-scroll #header-bottom {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 11111;
+}
+
+#home {
+  background-image: url("../image/hero_2 (1).jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Mulish", sans-serif;
+}
+#home .empty {
+  background-color: rgba(0, 0, 10, 0.5);
+  padding: 300px;
+}
+#home .empty .home .info {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  color: white;
+}
+#home .empty .home .info h1 {
+  font-size: 90px;
+}
+#home .empty .home .info p {
+  font-size: 20px;
+}
+#home .empty .home .info .home-btns {
+  display: flex;
+  gap: 30px;
+}
+#home .empty .home .info .home-btns button {
+  padding: 15px 30px;
+  border: 1px solid white;
+  background-color: white;
+  font-size: 16px;
+}
+#home .empty .home .info .home-btns .btn1 {
+  background-color: transparent;
+  color: white;
+  transition: all 0.5s;
+}
+#home .empty .home .info .home-btns .btn1:hover {
+  background-color: white;
+  color: rgb(0, 0, 0);
+}
+#home .empty .home .info .home-btns .btn2 {
+  background-color: white;
+  color: rgb(0, 0, 0);
+  transition: all 0.5s;
+}
+#home .empty .home .info .home-btns .btn2:hover {
+  background-color: transparent;
+  color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 767px) {
+  #home .empty .home .info h1 {
+    font-size: 20px;
+  }
+  #home .empty .home .info p {
+    font-size: 15px;
+  }
+}
+
+#products {
+  margin-top: 100px;
+}
+#products .products .products-text {
+  padding: 0px 350px;
+  text-align: center;
+}
+#products .products .products-text h5 {
+  font-size: 16px;
+  color: rgb(185, 185, 232);
+}
+#products .products .products-text h1 {
+  font-size: 50px;
+  font-family: "Mulish", sans-serif;
+}
+#products .products .products-text p {
+  font-size: 18px;
+  color: rgb(172, 163, 163);
+}
+#products .products .product-cards {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+#products .products .product-cards .card {
+  width: 30%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#products .products .product-cards .card .mini {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#products .products .product-cards .card .mini .one {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+#products .products .product-cards .card .mini .one i {
+  color: yellow;
+}
+#products .products .product-cards .card .card-btns {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+#products .products .product-cards .card .card-btns button {
+  padding: 10px 30px;
+  transition: all 0.5s;
+}
+#products .products .product-cards .card .card-btns .btn1 {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+#products .products .product-cards .card .card-btns .btn1:hover {
+  background-color: white;
+  color: black;
+}
+#products .products .product-cards .card .card-btns .btn2 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(2, 1, 1);
+  font-weight: bold;
+}
+#products .products .product-cards .card .card-btns .btn2:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 252, 252);
+}
+#products .products .product-cards .card .all img {
+  width: 100%;
+}
+#products .products .product-cards .card .all .empty {
+  border-radius: 3px solid orangered;
+  opacity: 0;
+}
+#products .products .product-cards .card:hover {
+  opacity: 1;
+}
+@media screen and (max-width: 767px) {
+  #products {
+    padding: 0px;
+  }
+  #products .products .products-text {
+    padding: 0px;
+  }
+  #products .products .product-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  #products .products .product-cards .card {
+    width: 100%;
+  }
+}
+
+#about {
+  margin-top: 100px;
+}
+#about .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about .about .about-image {
+  position: relative;
+  padding: 30px;
+  width: 70%;
+}
+#about .about .about-image img {
+  width: 100%;
+}
+#about .about .about-image .content {
+  right: 0px;
+  bottom: 20px;
+  position: absolute;
+  background-color: aquamarine;
+  padding: 10px;
+  color: white;
+  width: 40%;
+}
+#about .about .about-image .content h1 {
+  font-size: 40px;
+}
+#about .about .about-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 50px;
+  gap: 20px;
+  width: 30%;
+}
+#about .about .about-text h5 {
+  font-size: 16px;
+  color: rgb(185, 185, 232);
+}
+#about .about .about-text h1 {
+  font-size: 40px;
+  font-family: "Mulish", sans-serif;
+}
+#about .about .about-text p {
+  font-size: 18px;
+  color: rgb(172, 163, 163);
+}
+#about .about .about-text button {
+  padding: 10px 30px;
+  background-color: black;
+  border: 1px solid black;
+  color: white;
+  transition: all 0.5s;
+  font-size: 18px;
+}
+#about .about .about-text button:hover {
+  background-color: white;
+  color: black;
+}
+@media screen and (max-width: 767px) {
+  #about .about {
+    display: flex;
+    flex-direction: column;
+  }
+  #about .about .about-image {
+    width: 100%;
+  }
+  #about .about .about-image .content {
+    padding: 0px;
+    bottom: 0px;
+    right: 30px;
+    width: 80%;
+  }
+  #about .about .about-text {
+    width: 100%;
+    padding: 50px 5%;
+  }
+}
+
+#leader {
+  margin-top: 100px;
+}
+#leader .leader .text {
+  text-align: center;
+}
+#leader .leader .text p {
+  color: cadetblue;
+}
+#leader .leader .text h1 {
+  font-size: 40px;
+  font-weight: bold;
+}
+#leader .leader .cards {
+  padding: 50px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+#leader .leader .cards .card {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  width: 30%;
+}
+#leader .leader .cards .card img {
+  width: 100%;
+}
+#leader .leader .cards .card h3 {
+  color: cadetblue;
+}
+#leader .leader .cards .card .icons {
+  display: flex;
+  gap: 10px;
+}
+#leader .leader .cards .card .icons i {
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  background-color: rgb(123, 123, 123);
+}
+@media screen and (max-width: 767px) {
+  #leader .leader .text {
+    text-align: center;
+  }
+  #leader .leader .cards {
+    display: flex;
+    flex-direction: column;
+  }
+  #leader .leader .cards .card {
+    width: 100%;
+  }
+}
+
+#services {
+  margin-top: 100px;
+}
+#services .services .text {
+  text-align: center;
+  text-align: center;
+}
+#services .services .text h5 {
+  font-size: 16px;
+  color: rgb(185, 185, 232);
+}
+#services .services .text h1 {
+  font-size: 40px;
+  font-family: "Mulish", sans-serif;
+}
+#services .services .text p {
+  font-size: 18px;
+  color: rgb(172, 163, 163);
+}
+#services .services .services-cards {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#services .services .services-cards .card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 30%;
+  padding: 40px;
+}
+#services .services .services-cards .card .content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  color: grey;
+}
+#services .services .services-cards .card .content h3 {
+  font-size: 20px;
+}
+@media screen and (max-width: 767px) {
+  #services .services .services-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  #services .services .services-cards .card {
+    width: 100%;
+  }
+  #services .services .text h1 {
+    font-size: 30px;
+  }
+}
+
+footer {
+  margin-top: 100px;
+}
+footer .footer {
+  padding: 50px;
+  text-align: center;
+  font-size: 25px;
+  color: rgb(85, 90, 90);
+}
+
+.goTop {
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  opacity: 0;
+  transition: all 0.5s;
+}
+.goTop a {
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+.goTop.active {
+  opacity: 1;
+}/*# sourceMappingURL=main.css.map */

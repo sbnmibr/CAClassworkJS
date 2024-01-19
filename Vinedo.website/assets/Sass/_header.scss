@@ -1,0 +1,62 @@
+header {
+  padding: 30px;
+  .header {
+    .header-text {
+      text-align: center;
+
+      h1 {
+        font-size: 50px;
+        font-family: "Times New Roman", Times, serif;
+      }
+      p {
+        margin-top: 10px;
+        letter-spacing: 5px;
+        margin-bottom: 20px;
+        font-size: 20px;
+        color: grey;
+      }
+    .main{
+      .nav{
+        nav {
+          ul {
+            padding: 30px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+  
+            gap: 40px;
+  
+            li {
+              font-family: "Times New Roman", Times, serif;
+              a {
+                font-size: 20px;
+                color: rgb(139, 139, 139);
+              }
+            }
+          }
+        }
+      }
+      .navBar{
+        display: none;
+      }
+    }
+    }
+  }
+  @media screen and (max-width:767px) {
+    padding: 0 5%;
+    .header{
+        padding: 40px;
+        .header-text{
+           
+            nav{
+                display: none;
+            }
+        }
+        .main{
+          .navBar{
+            display: flex;
+          }
+        }
+    }
+  }
+}

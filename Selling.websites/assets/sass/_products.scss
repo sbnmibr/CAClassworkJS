@@ -1,0 +1,103 @@
+#products {
+  margin-top: 100px;
+  .products {
+    .products-text {
+      padding: 0px 350px;
+      text-align: center;
+      h5 {
+        font-size: 16px;
+        color: rgb(185, 185, 232);
+      }
+      h1 {
+        font-size: 50px;
+        font-family: "Mulish", sans-serif;
+      }
+      p {
+        font-size: 18px;
+        color: rgb(172, 163, 163);
+      }
+    }
+    .product-cards {
+      padding: 50px 0px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 30px;
+      .card {
+        width: 30%;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        // width: 50%;
+        .mini {
+          display: flex;
+          justify-content: center;
+          gap: 30px;
+          .one {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            i {
+              color: yellow;
+            }
+          }
+        }
+        .card-btns {
+          display: flex;
+          justify-content: center;
+          gap: 10px;
+          button {
+            padding: 10px 30px;
+            transition: all 0.5s;
+          }
+          .btn1 {
+            background-color: black;
+            color: white;
+            font-weight: bold;
+            &:hover {
+              background-color: white;
+              color: black;
+            }
+          }
+          .btn2 {
+            background-color: rgb(255, 255, 255);
+            color: rgb(2, 1, 1);
+            font-weight: bold;
+            &:hover {
+              background-color: rgb(0, 0, 0);
+              color: rgb(255, 252, 252);
+            }
+          }
+        }
+        .all {
+          img {
+            width: 100%;
+          }
+          .empty {
+            border-radius: 3px solid orangered;
+            opacity: 0;
+          }
+        }
+        &:hover {
+          opacity: 1;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 767px) {
+    padding: 0px;
+    .products {
+      .products-text {
+        padding: 0px;
+      }
+      .product-cards {
+        display: flex;
+        flex-direction: column;
+        .card {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -53,3 +53,19 @@ search.addEventListener("input", function (e) {
   drawCards(filtered);
   console.log(filtered);
 });
+
+
+function scroll(){
+  if(document.body.scrollTop >100 ||
+     document.documentElement.scrollTop >100)
+     {
+      headerTop.style.display="none"
+      headerBottom.style.background="block"
+     }else{
+      header.style.display=""
+      header.style.background=""
+     }
+}
+window.onscroll = function(){
+scroll()
+}

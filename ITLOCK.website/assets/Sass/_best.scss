@@ -31,12 +31,26 @@
         border: 1px solid white;
         background-color: transparent;
         color: white;
-        transition: all 0.5s;
+        transition: all 0.8s;
         &:hover{
-            inset: 10em 0 0 0;
-            background-color: rgb(117, 43, 201);
+            box-shadow: inset 15em 0 0 rgb(158, 25, 182);
         }
     }
+    }
+  }
+  @media screen and (max-width:767px) {
+    padding: 0 5%;
+    .best{
+     padding: 20px;
+      .best-text{
+        max-width: 80%;
+        
+      
+      max-width: 50%;
+       h1{
+        font-size: 40px;
+       }
+      }
     }
   }
 }

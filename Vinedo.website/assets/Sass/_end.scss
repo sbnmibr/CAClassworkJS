@@ -1,0 +1,74 @@
+#end {
+  margin-top: 100px;
+  .end {
+    .end-text {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      gap: 30px;
+      padding: 0px 150px;
+      h1 {
+        font-size: 40px;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+      .end-empty{
+        width: 10%;
+        height: 3px;
+        background-color: rgb(150, 159, 159);
+        margin-left: 385px;
+      }
+      p {
+        font-size: 20px;
+        color: grey;
+      }
+      .inputBtn {
+        input {
+          padding: 15px 80px;
+          border: 1px solid grey;
+          font-size: 18px;
+        }
+        button {
+        padding: 15px 40px;
+          border: none;
+          color: white;
+          background-color: rgb(211, 174, 128);
+          font-size: 18px;
+          transition: all 0.9s;
+
+          &:hover {
+            color: burlywood;
+            box-shadow: inset 12em 0 0 0 white;
+          }
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 767px){
+    padding: 0 5%;
+    .end{
+        .end-text{
+            padding: 0px;
+            h1{
+                font-size: 30px;
+            }
+            .end-empty{
+                width: 10%;
+                height: 3px;
+                background-color: rgb(150, 159, 159);
+                margin-left: 150px;
+              }
+        }
+        .inputBtn{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            input{
+                width: 100%;
+            }
+            button{
+                width: 100%;
+            }
+        }
+    }
+  }
+}

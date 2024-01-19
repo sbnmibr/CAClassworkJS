@@ -2,33 +2,42 @@
   "data": [
     {
       "id": "1",
-      "image": "./assets/image/blog3.jpg",
-      "title": "Complexities of modern markets",
-      "desc": "UniCode"
-    },
-    {
-      "id": "2",
-      "image": "./assets/image/blog4.jpg",
-      "title": "Backup and recovery",
-      "desc": "UniCode"
-    },
-    {
-      "id": "4",
-      "image": "./assets/image/blog3.jpg",
-      "title": "Sebnem",
-      "desc": "UniCode"
+      "image": "./assets/image/blog1.jpg",
+      "title": "raulll",
+      "desc": "loremmm"
     },
     {
       "id": "5",
       "image": "./assets/image/blog4.jpg",
-      "title": "selale",
-      "desc": "UniCode"
+      "title": "ittt",
+      "desc": "UniCode",
+      "descriptiom": "raulll"
     },
     {
       "id": "6",
+      "image": "./assets/image/blog6.jpg",
+      "title": "kenan",
+      "desc": "amirov",
+      "descriptiom": "",
+      "description": "muellimmmm"
+    },
+    {
+      "id": 1705081909118,
+      "title": "Sebnem",
+      "desc": "ibrahomve",
+      "image": "./assets/image/blog4.jpg"
+    },
+    {
+      "id": 1705084057567,
       "image": "./assets/image/blog5.jpg",
-      "title": "gulu",
-      "desc": "UniCode"
+      "title": "Haqi",
+      "desc": "muellim"
+    },
+    {
+      "id": 1705347379108,
+      "image": "./assets/image/blog2.jpg",
+      "title": "sebnemmm",
+      "desc": "loremmmmmmm"
     }
   ]
 }

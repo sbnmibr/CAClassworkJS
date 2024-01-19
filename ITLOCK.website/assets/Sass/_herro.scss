@@ -33,4 +33,18 @@
             }
         }
     }
+    @media screen and (max-width:767px) {
+   padding: 0 5%;
+        .herro{
+          
+            display: flex;
+            flex-direction: column;
+            .left{
+                width: 100%;
+            }
+            .right{
+                width: 100%;
+            }
+        }
+    }
 }

@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  align-items: none;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header {
+  padding: 30px;
+}
+header .header .header-text {
+  text-align: center;
+}
+header .header .header-text h1 {
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+header .header .header-text p {
+  margin-top: 10px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: grey;
+}
+header .header .header-text nav ul {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+header .header .header-text nav ul li {
+  font-family: "Times New Roman", Times, serif;
+}
+header .header .header-text nav ul li a {
+  font-size: 20px;
+  color: rgb(139, 139, 139);
+}
+@media screen and (max-width: 767px) {
+  header {
+    padding: 0 5%;
+  }
+  header .header {
+    padding: 40px;
+  }
+  header .header .header-text nav {
+    display: none;
+  }
+}
+
+#form {
+  background-image: url("../image/photo-1553361371-9b22f78e8b1d.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 250px;
+}
+#form .form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+#form .form form {
+  background-color: rgb(0, 0, 0);
+  padding: 70px;
+}
+#form .form form input {
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  padding: 10px 5px;
+}
+#form .form form button {
+  padding: 10px 30px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+}
+
+footer {
+  margin-top: 100px;
+  padding: 30px;
+  background-color: black;
+}
+footer .footer .footer-text {
+  text-align: center;
+}
+footer .footer .footer-text h1 {
+  font-size: 50px;
+  color: grey;
+  font-family: "Times New Roman", Times, serif;
+}
+footer .footer .footer-text p {
+  margin-top: 10px;
+  letter-spacing: 5px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color: rgb(202, 148, 118);
+}
+footer .footer .footer-text nav ul {
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+footer .footer .footer-text nav ul li {
+  font-family: "Times New Roman", Times, serif;
+}
+footer .footer .footer-text nav ul li a {
+  font-size: 20px;
+  color: rgb(139, 139, 139);
+}
+@media screen and (max-width: 767px) {
+  footer {
+    padding: 0px 5%;
+  }
+  footer .footer {
+    padding: 20px;
+  }
+  footer .footer .footer-text {
+    padding: 10px 20px;
+  }
+  footer .footer .footer-text nav ul {
+    gap: 20px;
+  }
+}/*# sourceMappingURL=main.css.map */

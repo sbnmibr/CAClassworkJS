@@ -1,0 +1,51 @@
+{
+  "data": [
+    {
+      "id": 1,
+      "image": "./assets/image/pexels-kenneth-2912108 (1).jpg",
+      "title": "Red Wine",
+      "description": "the best wine",
+      "price": 35
+    },
+    {
+      "id": 2,
+      "image": "./assets/image/premium_photo-1679245158200-d7b700044832.avif",
+      "title": "White Wine",
+      "description": "the best wine",
+      "price": 95
+    },
+    {
+      "id": 4,
+      "image": "./assets/image/premium_photo-1677327747116-f74fb2d367e2.avif",
+      "title": "Sebnem Wine",
+      "description": "the best wine",
+      "price": 3000
+    },
+    {
+      "id": 5,
+      "image": "./assets/image/premium_photo-1677327747116-f74fb2d367e2.avif",
+      "title": "Sebnem Wine",
+      "description": "the best wine",
+      "price": 260
+    },
+    {
+      "id": 8,
+      "image": "./assets/image/premium_photo-1679245158200-d7b700044832.avif",
+      "title": "Sebnem Wine",
+      "description": "the best wine",
+      "price": 6
+    },
+    {
+      "id": 1705249333547,
+      "title": "sebnemmm",
+      "description": "loremmm",
+      "image": "./assets/image/premium_photo-1679245158200-d7b700044832.avif"
+    },
+    {
+      "id": 1705249455695,
+      "title": "wine",
+      "description": "the best",
+      "image": "./assets/image/pexels-kenneth-2912108 (1).jpg"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+    "dataCards":[
+        {
+            "id":"1",
+            "image":"./assets/image/dish-3.jpg",
+            "title":"Grilled Beef with potatoes",
+            "description":"Meat, Potatoes, Rice, Tomatoe",
+            "price":"28",
+            "category":"desert"
+           
+            
+        },
+        {
+            "id":"2",
+            "image":"./assets/image/dish-4.jpg",
+            "title":"Grilled Beef with potatoes",
+            "description":"Meat, Potatoes, Rice, Tomatoe",
+            "price":"28",
+            "category":"desert"
+        },
+        {
+            "id":"3",
+            "image":"./assets/image/dish-5.jpg",
+            "title":"Grilled Beef with potatoes",
+            "description":"Meat, Potatoes, Rice, Tomatoe",
+            "price":"28",
+            "category":"drinks"
+        },
+        {
+            "id":"4",
+            "image":"./assets/image/dish-6.jpg",
+            "title":"Grilled Beef with potatoes",
+            "description":"Meat, Potatoes, Rice, Tomatoe",
+            "price":"28",
+            "category":"drinks"
+        },
+        {
+            "id":"5",
+            "image":"./assets/image/dish-3.jpg",
+            "title":"Grilled Beef with potatoes",
+            "description":"Meat, Potatoes, Rice, Tomatoe",
+            "price":"99",
+            "category":"Main"
+        },
+        {
+            "id":"6",
+            "image":"./assets/image/dish-6.jpg",
+            "title":"Grilled Beef with potatoes",
+            "description":"Meat, Potatoes, Rice, Tomatoe",
+            "price":"99",
+            "category":"main"
+
+        },
+        {
+            "id":"7",
+            "image":"./assets/image/dish-5.jpg",
+            "title":"Grilled Beef with potatoes",
+            "description":"Meat, Potatoes, Rice, Tomatoe",
+            "price":"22", "category":"main"
+        },
+        {
+            "id":"8",
+            "image":"./assets/image/dish-4.jpg",
+            "title":"Grilled Beef with potatoes",
+            "description":"Meat, Potatoes, Rice, Tomatoe",
+            "price":"45",
+            "category":"desert"
+        }
+    ]
+}

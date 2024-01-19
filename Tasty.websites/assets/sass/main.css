@@ -1,0 +1,387 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none !important;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+@media screen and (max-width: 1119px) {
+  .container {
+    padding: 0 5%;
+  }
+}
+
+header {
+  position: absolute;
+  width: 100%;
+  color: white;
+  transition: all 0.7s;
+  z-index: 111;
+}
+header .header {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header .header .logo {
+  border: 1px solid;
+  padding: 10px;
+  border-radius: 5px;
+}
+header .header nav ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+header .header nav ul li a {
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+}
+header .header .fa-bars {
+  display: none;
+  color: rgb(255, 255, 255);
+}
+@media screen and (max-width: 767px) {
+  header .header {
+    padding: 20px;
+  }
+  header .header nav {
+    background-color: black;
+    position: fixed;
+    width: 50%;
+    height: 100%;
+    top: 0px;
+    left: -800px;
+    transition: all 0.6s;
+  }
+  header .header nav ul {
+    padding: 40px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+  header .header nav ul li a {
+    color: white;
+  }
+  header .header nav.show {
+    left: 0;
+  }
+  header .header .fa-bars {
+    display: block;
+    color: rgb(0, 0, 0);
+  }
+}
+header.header-scroll {
+  position: fixed;
+  background-color: rgb(70, 69, 69);
+  width: 100%;
+  z-index: 1111;
+}
+
+#herro-banner .carousel-inner .info {
+  text-align: center;
+  padding: 30px 150px;
+}
+#herro-banner .carousel-inner .info h1 {
+  font-family: "Indie Flower", cursive;
+  font-size: 60px;
+  color: white;
+}
+#herro-banner .carousel-inner .info button {
+  margin-top: 20px;
+  padding: 10px 30px;
+  border: none;
+  background-color: transparent;
+  border: 1px solid white;
+  color: white;
+}
+#herro-banner .carousel-inner .info button:hover {
+  background-color: white;
+  color: black;
+}
+#herro-banner .carousel-inner .one {
+  background-image: url("../image/bg_2.jpg");
+  padding: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#herro-banner .carousel-inner .two {
+  background-image: url("../image/bg_3.jpg");
+  padding: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#herro-banner .carousel-inner .three {
+  background-image: url("../image/bg_2.jpg");
+  padding: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#chef {
+  margin-top: 100px;
+}
+#chef .chef {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+#chef .chef .chef-image {
+  width: 50%;
+}
+#chef .chef .chef-image img {
+  width: 100%;
+}
+#chef .chef .chef-info {
+  gap: 40px;
+  padding: 30px 100px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+#chef .chef .chef-info h5 {
+  color: rgb(113, 131, 131);
+}
+#chef .chef .chef-info h1 {
+  font-size: 30px;
+}
+#chef .chef .chef-info span {
+  color: grey;
+}
+@media screen and (max-width: 767px) {
+  #chef .chef {
+    display: flex;
+    flex-direction: column;
+  }
+  #chef .chef .chef-image {
+    width: 100%;
+  }
+  #chef .chef .chef-info {
+    padding: 0px;
+    width: 100%;
+  }
+}
+
+#menu {
+  margin-top: 100px;
+}
+#menu .menu {
+  text-align: center;
+}
+#menu .menu .btns {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+#menu .menu .btns button {
+  padding: 20px 30px;
+  background-color: rgb(223, 207, 30);
+  border: none;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+#menu .menu .menu-bottom {
+  gap: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#menu .menu .menu-bottom .menu-card {
+  padding: 10px;
+  background-color: rgb(241, 246, 244);
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40%;
+}
+#menu .menu .menu-bottom .menu-card .info {
+  display: flex;
+  flex-direction: column;
+}
+#menu .menu .menu-bottom .menu-card .info h1 {
+  font-size: 20px;
+}
+#menu .menu .menu-bottom .menu-card img {
+  width: 5%;
+  border-radius: 50%;
+}
+#menu .menu .menu-bottom .menu-card p {
+  font-size: 20px;
+}
+#menu .menu .end {
+  padding: 100px;
+}
+#menu .menu .end button {
+  padding: 15px 40px;
+  background-color: transparent;
+  border: 1px solid rgb(255, 187, 0);
+  color: orange;
+  transition: all 0.5s;
+}
+#menu .menu .end button:hover {
+  background-color: orangered;
+  color: black;
+}
+@media screen and (max-width: 767px) {
+  #menu .menu .btns {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+  }
+  #menu .menu .btns button {
+    border-bottom: 1px solid rgb(202, 197, 50);
+    width: 100%;
+    margin: 0;
+  }
+  #menu .menu .menu-bottom {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  #menu .menu .menu-bottom .menu-card {
+    width: 100%;
+    padding: 0px;
+  }
+}
+
+.guests {
+  margin-top: 100px;
+}
+.guests .guests-info {
+  text-align: center;
+}
+.guests .guests-info p {
+  color: cadetblue;
+}
+.guests .guests-info h1 {
+  font-size: 30px;
+}
+.guests .carousel-owl {
+  padding: 100px 0px;
+}
+.guests .carousel-owl .card1 {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.guests .carousel-owl .card1 .image {
+  width: 20%;
+}
+.guests .carousel-owl .card1 .image img {
+  width: 100%;
+  border-radius: 50%;
+}
+.guests .carousel-owl .card1 .desc {
+  padding: 0px 50px;
+}
+.guests .carousel-owl .card1 .desc p {
+  font-size: 15px;
+  color: cadetblue;
+}
+.guests .carousel-owl .card1 .info h4 {
+  font-size: 18px;
+}
+.guests .carousel-owl .card1 .info p {
+  font-size: 15px;
+}
+
+#blog {
+  margin-top: 100px;
+}
+#blog .blog .blog-text {
+  margin-bottom: 40px;
+  text-align: center;
+}
+#blog .blog .blog-text p {
+  color: gray;
+}
+#blog .blog .blog-text h1 {
+  font-size: 40px;
+}
+#blog .blog .blog-cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+#blog .blog .blog-cards .card {
+  width: 33%;
+}
+#blog .blog .blog-cards .card img {
+  width: 100%;
+}
+#blog .blog .blog-cards .card .text {
+  padding: 40px;
+}
+#blog .blog .blog-cards .card .text h1 {
+  font-size: 20px;
+}
+@media screen and (max-width: 767px) {
+  #blog .blog .blog-cards {
+    display: flex;
+    flex-direction: column;
+  }
+  #blog .blog .blog-cards .card {
+    width: 100%;
+  }
+}
+
+footer {
+  margin-top: 100px;
+  background-color: rgb(57, 56, 56);
+}
+footer .footer {
+  color: white;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 40px;
+}
+footer .footer .nav {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+footer .footer .nav .foot-icons i {
+  padding: 15px;
+  background-color: rgb(96, 95, 95);
+  color: white;
+  border-radius: 50%;
+}
+footer .footer .nav h1 {
+  font-size: 30px;
+}
+footer .footer .nav input {
+  padding: 10px 60px;
+  border-radius: 20px;
+  border: none;
+}
+@media screen and (max-width: 767px) {
+  footer .footer {
+    display: flex;
+    flex-direction: column;
+  }
+  footer .footer .nav {
+    display: flex;
+  }
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,59 @@
+#services{
+    margin-top: 100px;
+    .services{
+        .text{
+            text-align: center;
+            text-align: center;
+            h5 {
+              font-size: 16px;
+              color: rgb(185, 185, 232);
+            }
+            h1 {
+              font-size: 40px;
+              font-family: "Mulish", sans-serif;
+            }
+            p {
+              font-size: 18px;
+              color: rgb(172, 163, 163);
+            }
+
+        }
+        .services-cards{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            .card{
+                display: flex;
+                justify-content: center;
+                align-items: flex-start;
+                width: 30%;
+                padding: 40px;
+                .content{
+                    display: flex;
+                    flex-direction: column;
+                    gap: 10px;
+                    color: grey;
+                    h3{
+                        font-size: 20px;
+                    }
+                }
+            }
+        }
+    }
+    @media screen and (max-width:767px) {
+        .services{
+            .services-cards{
+                display: flex;
+                flex-direction: column;
+                .card{
+                    width: 100%;
+                }
+            }
+            .text{
+                h1{
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,36 @@
+#carousel {
+  .carousel-inner {
+
+    .carousel-item{
+        .info{
+            text-align: center;
+            color: white;
+            h1{
+                font-size: 70px;
+            }
+        }
+    }
+    .one {
+      background-image: url("../image/slider-1.jpg");
+      padding: 400px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .two {
+      background-image: url("../image/slider-2.jpg");
+      padding: 400px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .three {
+      background-image: url("../image/slider-3.jpg");
+      padding: 400px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+  }
+}

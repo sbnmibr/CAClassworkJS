@@ -1,0 +1,56 @@
+#all {
+  .all {
+    .form {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      form {
+        margin-top: 50px;
+        padding: 100px;
+        background-color: cadetblue;
+        input {
+          padding: 10px;
+          width: 80%;
+          border: none;
+          background-color: rgb(232, 232, 232);
+        }
+        button {
+          padding: 10px 25px;
+          border: 1px solid cadetblue;
+          color: rgb(52, 66, 158);
+        }
+      }
+    }
+    .table {
+      margin-top: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      table,
+      th,
+      td {
+        padding: 20px;
+        border: 1px solid;
+        border-collapse: collapse;
+        button {
+          padding: 10px;
+          color: white;
+          border: none;
+        }
+        .delete{
+            background-color: chartreuse;
+        }
+        .edit{
+            background-color: rgb(251, 69, 41);
+        }
+      }
+     
+      table {
+        padding: 50px;
+        img {
+          width: 100px;
+        }
+      }
+    }
+  }
+}

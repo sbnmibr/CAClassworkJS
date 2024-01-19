@@ -1,5 +1,6 @@
 header {
-    
+    // position: fixed;
+    // width: 100%;
     background-color: white;
   .header {
     .header-top {
@@ -66,6 +67,28 @@ header {
             }
         }
     }
+    }
+  }
+  @media screen and (max-width:767px) {
+    padding: 0 5%;
+    .header{
+        .header-top{
+           
+            display: flex;
+            p{
+                font-size: 15px;
+            }
+        }
+        .header-bottom{
+            nav{
+                display: none;
+            }
+            .small{
+                button{
+                    display: none;
+                }
+            }
+        }
     }
   }
 }
