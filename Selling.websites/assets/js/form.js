@@ -2,7 +2,7 @@ const BASE_URL = "http://localhost:3000/data";
 const titleInput = document.querySelector(".title");
 const descInput = document.querySelector(".description");
 const fileInput = document.querySelector(".file");
-const ubmit = document.querySelector(".submit");
+const submit = document.querySelector(".submit");
 const form = document.querySelector("form");
 
 const tbody = document.querySelector("tbody");

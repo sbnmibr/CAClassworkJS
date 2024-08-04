@@ -15,7 +15,8 @@ async function detailsFun() {
         <label for="">Body:</label>
         <h5>${res.data.body}</h5></div>
         <div class="two">
-        <label for="">Author:</label>
+           <a href="details.html?id=${element.id}"> 
+           <label for="">Author:</label>
          <p> by Lorem</p></div>
              <div class="two">
              Id:

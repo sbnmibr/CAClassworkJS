@@ -1,14 +1,79 @@
-.card{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  @media screen and (max-width: 1200px) {
+    .container {
+      padding: 0 5%;
+    }
+  }
+  header {
+    padding: 1.5rem 0;
+    border-bottom: 2px solid gray;
+  }
+  .header {
     display: flex;
-    flex-direction: column;
-}
-img{
-    width: 100%;
-}
-.card-left{
-    width: 405;
-}
-.card-right{
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header button {
+    padding: 8px 15px;
+    background-color: transparent;
+    border: 1px solid transparent;
+    cursor: pointer;
+  }
+  .header button{
+    font-size: 20px;
+  }
+  
+  section {
+    background-color: rgb(233, 222, 222);
+    padding: 2rem 0;
+  }
+  .section button {
+    padding: 8px 20px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .details {
+    margin-top: 30px;
     display: flex;
-   gap: 90px;
-}
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .hero-banner-section-left{
+  display: flex;
+  gap: 40px;
+  }
+  .text{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+  }
+  .text span{
+      color: gray;
+  }
+  
+  
+  .dark-mode{
+    background-color: black;
+    color: #fff;
+  }
+  .dark-mode section{
+    background-color: black;
+  }
+  
+  .dark-mode header button{
+    color: #fff;
+  }

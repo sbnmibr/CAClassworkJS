@@ -10,6 +10,7 @@ footer{
 
 
 .goTop{
+    overflow: hidden;
     position: fixed;
     right: 20px;
     bottom: 30px;
@@ -22,5 +23,6 @@ footer{
     }
     &.active{
         opacity: 1;
+        z-index: 1111;
     }
 }

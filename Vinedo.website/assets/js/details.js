@@ -11,7 +11,6 @@ try {
 
     <div class="left">
       <img src="${res.data.image}" alt="">
-
     </div> 
     
     <div class="right">

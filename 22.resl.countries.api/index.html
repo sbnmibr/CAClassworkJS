@@ -4,8 +4,8 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
@@ -13,57 +13,62 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Rest Countries</title>
   </head>
   <body>
     <header>
-      <h2>Where in the world</h2>
-      <div class="icon" onclick="darkFunction()">
-        <i class="fa-regular fa-moon" ></i>
-        <p class="mode" >Dark mode</p>
+      <div class="container">
+        <div class="header">
+          <h1>Where in the world?</h1>
+          <button class="btn">
+            <i class="fa-regular fa-moon"></i>
+            <p>Dark Mode</p>
+          </button>
+        </div>
       </div>
     </header>
-    <hr />
-
-    <div class="banner2">
-      <div class="banner">
-        <div class="inputIcon">
-          <input type="search" class="search" placeholder="Search for a country" />
-          <i class="fa-solid fa-magnifying-glass" ></i>
+    <section>
+      <div class="container">
+        <div class="hero-banner-section">
+          <form action="">
+            <div class="hero-banner-section-icon">
+              <input
+                type="text"
+                placeholder="Search for a country..."
+                id="search"
+              />
+              <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="all-btn">
+              <button class="section-btn">Ascending</button>
+            <div>
+              <select>
+                <option value="Filter by region" selected disabled>
+                  Filter by region
+                </option>
+                <option value="all">All</option>
+                <option value="africa">Africa</option>
+                <option value="asia">Asia</option>
+                <option value="americas">America</option>
+                <option value="oceania">Oceania</option>
+                <option value="europe">Europe</option>
+              </select>
+            </div>
+            </div>
+          </form>
         </div>
-        <select name="" id="select">
-          <option value="">Filter by Region</option>
-          <option value="asiya">Asiya</option>
-          <option value="africa">Africa</option>
-          <option value="europe">Europe</option>
-        </select>
+        <div class="cards">
+          <!-- <div class="card">
+                <img src="https://flagcdn.com/w320/cx.png" alt="">
+                <h3>Christmas Island</h3>
+                <p><b>Population:</b>20909</p>
+                <p><b>Population:</b>20909</p>
+                <p><b>Population:</b>20909</p>
+            </div> -->
+        </div>
       </div>
-      <div class="cards">
-        <!-- <div class="card">
-         <a href="">
-          <img src="" alt="" />
-          <h3>Afganistan</h3>
-          <div class="div">
-            <h5>Papulation:</h5>
-            <p>40218234</p>
-          </div>
-          <div class="div">
-            <h5>Region:</h5>
-            <p>Asia</p>
-          </div>
-          <div class="div">
-            <h5>Capital:</h5>
-            <p>flying fish Cove</p>
-          </div>
-         </a>
-        </div> -->
-      </div>
-    </div>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.6.2/axios.min.js"
-      integrity="sha512-b94Z6431JyXY14iSXwgzeZurHHRNkLt9d6bAHt7BZT38eqV+GyngIi/tVye4jBKPYQ2lBdRs0glww4fmpuLRwA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    ></script>
-    <script src="./app.js"></script>
+    </section>
+    <script src="./index.js"></script>
   </body>
 </html>

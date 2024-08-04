@@ -92,3 +92,4 @@ async function deleteFunction(id,btn){
   await axios.delete(`${BASE_URL}/${id}`)
   this.closest("div").remove()
 }
+
